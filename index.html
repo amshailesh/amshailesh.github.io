@@ -1,39 +1,102 @@
 <html>
-<head>
-<title>Whatsapp</title>
-    <style>
-        body{margin:0;}
-        div.menu{background-color: #1EBEA5;width:100%;height:15vh;}
-        
-        div.box1{background-color:antiquewhite;width:50%;height:600;float:left;}
+    <head>
+        <title>Division</title>
+        <style>
+            body{
+                margin: 0;
+                background-color: antiquewhite;
+                font-family: verdana;
+            }
+            #header{
+                width:100%;
+                height: 50;
+                background-color: aquamarine;
+                float:left;
+                
+            }
+            #header img{
+                width:40;
+                height:40;
+                padding:5px;
+                
+            }
+            #sitename{
+                margin:-35px 0 0 74px;
+                font-weight: bold;
+            }
+            #menu{
+                width:100%;
+                height: 28px;
+                background-color: aliceblue;
+                float:left;
+            }
+            #menu ul li{
+                width: 20%;
+                height: 28px;
+                float:left;
+            }
+            #menu ul{
+                list-style: none;
+                margin:0;
+                padding:0;
+                height:28px;
+                float: left;
+                width:100%;
+            }
+            #menu ul li a{
+                width:100%;
+                float:left;
+                text-align: center;
+                color:brown;
+                font-size: 25px;
+            }
+            #menu ul li a:hover{
+                background: brown;
+                color:white;
+            }
+            div.banner{
+                background-image: url(field.jpg);
+                background-size:100% 400px;
+                background-repeat: no-repeat;
+                float:left;
+                width:100%;
+                height:400px;
+            }
+        P.intro{
+            text-align: center;
+            font-family: verdana;
+            font-size:25px;
+            }
+        p.slogan{
+            text-align: center;
+            font-family: verdana;
+            font-size:45px;
+            }
+            div.box1{background-color:antiquewhite;width:50%;height:600;float:left;}
         div.box2{background-color:#D0E9EA;width:50%;height:600;float:left;}
         div.box3{background-color: #273443;width:100%;height: 200px;float:left;}
-        img.logo{margin: 5px 0 0 5px;}
-        li.mli{color:white;font-family:verdana;margin:0 0 0 10px;font-weight: bold;font-size:35;padding:0 0 50px 0;display:inline-block;}
-        ul.mul{margin:-70px 0 0 75px;}
-        div.banner{background-image: url(field.jpg);background-size:100% 400px;background-repeat: no-repeat;float:left;width:100%;height:400px; }
-        P.intro{text-align: center;font-family: verdana;font-size:25px;}
-        p.slogan{text-align: center;font-family: verdana;font-size:45px;}
-    </style>
-</head>
-    <body>
-        <div class="menu">
-            <img src="logo.jpg" class="logo" />
-            <ul class="mul"><li class="mli" style="color:yellow;">VEDANT COMMODITIES</li>
-                <li class="mli"></li>
-                <li class="mli"></li>
-                <li class="mli"></li>
-                <li class="mli"></li>
-                <li class="mli"></li>
-                <li class="mli">Home</li>
-                <li class="mli">About Us</li>
-                <li class="mli">Contact Us</li>
-            </ul></div>
-        <div class="banner"><p class="slogan">A REPUTED EXPORT HOUSE FROM INDIA</p><p class="intro">The mission of the company is to establish the name of organization on the world map as one of the reliable and respected firm from India.We are committed towards our clients for best service, best quality genuine material and transparent business policies.
+        </style>
+    </head>
+<body>
+<div id="body">
+    <div id="header">
+        <img src="logo.jpg" /><p id="sitename">VEDANT COMMODITIES</p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Contact Us</a></li>
+            <li><a>Services</a></li>
+        </ul>
+    </div>
+    <div class="banner"><p class="slogan">A REPUTED EXPORT HOUSE FROM INDIA</p><p class="intro">The mission of the company is to establish the name of organization on the world map as one of the reliable and respected firm from India.We are committed towards our clients for best service, best quality genuine material and transparent business policies.
 
 We are manufacturers & exporters of Flavouring Essences ,Beverages ,Fruits & Pulps ,Flavouring Essences ,Engeneering Products ,Papers</p></div>
+</div>
     <div class="box1"></div>
     <div class="box2"></div>
     <div class="box3"></div>
-    </body>
+</body>
+    
 </html>
