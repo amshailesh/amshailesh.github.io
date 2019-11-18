@@ -14,24 +14,24 @@
             background:rgb(99, 240, 247);
             text-align: center;
         }
-        select{
+        
+        #menu select{
             border-collapse: collapse;
             border:none;
             padding:20px 20px 20px 20px;
             margin:20px 20px 20px 20px;
             background:rgb(99, 240, 247); 
         }
-        #menu select:hover{
-            background: white;
-            color: green;
-        }
+   #menu select option[value="opt"] {
+  background:rgb(99, 240, 247);
+}
     </style>
 </head>
     <body>
         <div id="menu"><select><option selected>Home</option>
-                                <option id="opt">About Us</option>
-                                <option id="opt">Contact Us</option>
-                                <option id="opt">Portfolio</option>
+                                <option value="opt">About Us</option>
+                                <option  value="opt">Contact Us</option>
+                                <option  value="opt">Portfolio</option>
                       </select>
                         <select><option selected>About Us </option>
                                 <option id="opt">Home</option>
