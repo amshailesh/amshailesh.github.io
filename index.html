@@ -1,62 +1,170 @@
 <html>
 <head>
-    <title>Opacity</title>
+<title>Demo</title>
     <style>
         body{
-            background-image:url(train.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            margin: 0;
+            margin:;
         }
-        #menu{
-            width: 100%;
-            height:100px;
-            background:rgb(99, 240, 247,50%);
-            text-align: center;
+        #main{
+            background: wheat;
+            width:100%;
+            height:700px;
         }
         
-        #menu select{
-            border-collapse: collapse;
-            border:none;
-            padding:20px 20px 20px 20px;
-            margin:20px 20px 20px 20px;
-            background:rgb(99, 240, 247,7%); 
-            font-family: verdana;
-       font-size: 45px;
-}
+        #logo{
+            background: black;
+            width:100%;
+            height:100px;
+            float: left;
         }
-   #menu select option[value="opt"] {
-  background:rgb(99, 240, 247);
-       font-family: verdana;
-       font-size: 45px;
-}
-        P{
-            font-size: 45px;
-            text-align: center;
+        #menu{
+            background: grey;
+            width:100%;
+            height:45px;
+            float: left;
+        }
+        #big{
+            background:white;
+            width:75%;
+            height:450px;
+            float: left;
+        }
+        #small{
+            background:rgb(195,195,195);
+            width:25%;
+            height:450px;
+            float:left;
+        }
+        #footer{
+            background:black;
+            width:100%;
+            height:100px;
+            float:left;
+        }
+        #html5{
+            color:orange;
             font-family: verdana;
+            font-size:20px;
+            padding: 30px 0 10px 30px;
+        }
+        #menu ul li{
+            float: left;
+            list-style: none;
+            width:5%;
+            color: white;
+            border-right:2px solid black;
+            height:100%;
+            padding: 0 5px 0 10px;
+        }
+        
+        #box1{
+            background: grey;
+           width:100px;
+            height:100px;
+            margin:30px 0 5px 30px;
+            
+            
+        }
+        #box2{
+            background: grey;
+            
+            width:100px;
+            height:100px;
+            margin:30px 0 5px 30px;
+            
+        }
+        #box3{
+            background: grey;
+        
+            width:100px;
+            height:100px;
+            margin:30px 0 5px 30px;
+            
+        }
+        #para{
+            float:left:
+        }
+        #threebox{
+            
+            width:20%;
+            height: 450px;
+            float: left;
+        }
+          #para{
+            
+            width:80%;
+            height: 450px;
+            font-family: verdana;
+            font-size:15px;
+        }
+        h3{
+            font-family: verdana;
+            padding: 0 0 0 10px;
+        }
+        hr{
+            width:90%;}
+        #links{
+            color: orange;
+            padding: 0 0 0 20px;
+        }
+        #pwidgets{
+            width:250px;
+            height:200px;
+            margin: 0 0 0 20px;
+            text-align: justify;
         }
     </style>
 </head>
     <body>
-        <div id="menu"><select><option selected>Home</option>
-                                <option value="opt">About Us</option>
-                                <option  value="opt">Contact Us</option>
-                                <option  value="opt">Portfolio</option>
-                      </select>
-                        <select><option selected>About Us </option>
-                                <option value="opt">Home</option>
-                                <option value="opt">Contact Us</option>
-                                <option value="opt">Portfolio</option>
-                      </select>
-            <select><option selected>Contact </option>
-                                <option value="opt">Home</option>
-                                <option value="opt">Contact Us</option>
-                                <option value="opt" >Portfolio</option>
-                      </select>
-                        
-        </div>
-        <div id="Para"><p>WELCOME TO SEED INFOTECH 11:30am to 1:30pm batch</p></div>
-                      
+        <div id="main">
+            <div id="logo"><p id="html5">HTML5</p></div>
+            <div id="menu">
+            <ul>
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>Link3</li>
+            <li>Link4</li>
+            <li>Link5</li>
+            </ul>
+            </div>
+            <div id="big">
+                <div id="threebox">
+                    <div id="box1"></div>
+                    <div id="box2"></div>
+                    <div id="box3"></div>
+                </div>
+                <div id="para">
+                    <h4>This is a Lorem Ipsum Heading</h4>
+                    <p>efddffwf wdf dwf f  wrefwef wf we  f sdf wef s f wf f sd
+                     ddfdgdgdfg fdgdgdfgdfg fg fdgdfg fd gdfgdfg  fdgdfgd  fdgdgd
+                        adfsdfsdfsdf  sdf sdf sfdgsdg  sfgfsg  dfg dfg sdffdsf dsfdsf<br><b style="color:orange;">Read More</b><br>..........................................................................................................</p>
+                   
+                    <h4>This is a Lorem Ipsum Heading</h4>
+                     <p>efddffwf wdf dwf f  wrefwef wf we  f sdf wef s f wf f sd
+                     ddfdgdgdfg fdgdgdfgdfg fg fdgdfg fd gdfgdfg  fdgdfgd  fdgdgd
+                    adfsdfsdfsdf  sdf sdf sfdgsdg  sfgfsg  dfg dfg sdffdsf dsfdsf<br><b style="color:orange;">Read More</b><br>..........................................................................................................</p></p>
+                    <h4>This is a Lorem Ipsum Heading</h4>
+                   
+                     <p>efddffwf wdf dwf f  wrefwef wf we  f sdf wef s f wf f sd
+                     ddfdgdgdfg fdgdgdfgdfg fg fdgdfg fd gdfgdfg  fdgdfgd  fdgdgd
+                    adfsdfsdfsdf  sdf sdf sfdgsdg  sfgfsg  dfg dfg sdffdsf dsfdsf<br><b style="color:orange;">Read More</b></p>
+                </div>
+            </div>
+            <div id="small">
+            <h3>Sidebar Links</h3>
+            <hr>
+            <h5 id="links">Link1</h5>
+            <h5 id="links">Link2</h5>
+            <h5 id="links">Link3</h5>
+            <h5 id="links">Link4</h5>
+            <h3>Other Widgets</h3>
+            <hr>
+             <p id="pwidgets">efddffwf wdf dwf f  wrefwef wf we  f sdf wef s f wf f sd
+                     ddfdgdgdfg fdgdgdfgdfg fg fdgdfg fd gdfgdfg  fdgdfgd  fdgdgd
+                 adfsdfsdfsdf  sdf sdf sfdgsdg  sfgfsg  dfg dfg sdffdsf dsfdsf</p>   
+            </div>
+            <div id="footer"></div>
     
+
     </body>
 </html>
