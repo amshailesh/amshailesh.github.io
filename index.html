@@ -1,70 +1,73 @@
 <html>
 <head>
-    <title>Shailesh</title>
+<title>EMI</title>
     <style>
-        body{
-            margin:0;
-            
-        }
-        #main{
-            width:100%;
-            height:100%;
-        }
-        #top{
-            background: rgb(66,133,244);
-            width:100%;
-            height:500px;
-            float:left;
-        }
-        #bottom{
-            background:wheat;
-            width:100%;
-            height:500px;
-            float:left;
-        }
-        #jobtitle{
-            color:white;
-            font-size:70px;
-            width:700px;
-            height:200px;
-            float: left;
-            text-align: center;
-            font-family: verdana;
-            border:3px solid white;
-            
-            
-        }
-        #jobtitlebelow{
-            color:yellow;
-            font-family: verdana;
-            font-size:35px;
-            border:0;
-            width: 820px;
-            height: 200px;
-            float:right;
-            margin:0 0 0 0;
-            text-align: left;
-        }
-        #myphoto{
-            float:left;
-            border: 0;
-        }
-        
+        table{border-collapse: collapse;}
     </style>
+    <script>
+        function calc(){
+        var fname=document.getElementById("name").value;
+        var fsal=parseInt(document.getElementById("sal").value);
+        var ftenure=parseInt(document.getElementById("tenure").value);
+        var flamt=parseInt(document.getElementById("lamt").value);
+        var froi=parseInt(document.getElementById("roi").value);
+        var totalsal;
+        totalsal=fsal*12;
+            
+            
+            
+if(totalsal>500000)
+
+    {
+        
+      
+        document.getElementById("res").innerHTML="<h1>You are not Eleigible for Loan</h1>";
+        
+     
+    }
+    else{
+        
+          var temp;
+        temp=30*fsal;
+        var dfamt;
+        dfamt=temp+temp*(froi/100);
+        var femi;
+        femi=(dfamt/ftenure)/12;
+        document.getElementById("droi").innerHTML="Interest:"+froi;
+        document.getElementById("dname").innerHTML="Name:"+fname;
+        document.getElementById("dlamt").innerHTML="Loan Amount:"+dfamt;
+        document.getElementById("dlemi").innerHTML="EMI:"+femi;
+        document.getElementById("dtenure").innerHTML="Tenure:"+ftenure;
+        document.getElementById("dsal").innerHTML="Salary:"+fsal;
+    }
+        }
+    </script>
 </head>
     <body>
-        <div id="main">
-            <div id="top"><img id="myphoto" src="shailesh.png" />
-                <div id="topparas">
-                    
-                <p id="jobtitle">FULL STACK WEB DEVELOPER</p>
-                
-                    
-                    <p id="jobtitlebelow">from Seed Infotech</p>
-                </div>
-                
-            </div>
-            <div id="bottom"></div>
-        </div>
+        <form>
+            <h1>Loan Application:</h1>
+        <table border="1">
+            <tr>
+                <TD>Name:<input type="text" id="name" required></TD>
+                <td>Salary:<input type="text" id="sal" required></td>
+            </tr>
+            <tr>
+                <TD>Tenure:<input type="text" id="tenure" required></TD>
+                <td>Loant required:<input type="text" id="lamt" required></td>
+            </tr>
+            <tr>
+                <TD>Rate of Interest:<input type="text" id="roi" required></TD>
+                <td><input type="submit" value="Calculate" onclick="calc()" ></td>
+            </tr>
+        </table>
+            
+        <p id="dname">Name:</p>
+        <p id="dsal">Salary:</p>
+        <p id="dtenure">Tenure:</p>
+        <p id="droi">Rate of Interest:</p>
+        <p id="dlemi">EMI:</p>
+        <p id="dlamt">Approved Loan:</p>
+        <p id="res">Notification:</p>
+            </form>
     </body>
 </html>
