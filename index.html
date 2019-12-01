@@ -1,73 +1,366 @@
-<html>
+<html lang="en">
 <head>
-<title>EMI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Vedant Commodities tea,essence,enginnering products,paper</title>    
+    
     <style>
-        table{border-collapse: collapse;}
-    </style>
-    <script>
-        function calc(){
-        var fname=document.getElementById("name").value;
-        var fsal=parseInt(document.getElementById("sal").value);
-        var ftenure=parseInt(document.getElementById("tenure").value);
-        var flamt=parseInt(document.getElementById("lamt").value);
-        var froi=parseInt(document.getElementById("roi").value);
-        var totalsal;
-        totalsal=fsal*12;
-            
-            
-            
-if(totalsal>500000)
-
-    {
-        
-      
-        document.getElementById("res").innerHTML="<h1>You are not Eleigible for Loan</h1>";
-        
-     
-    }
-    else{
-        
-          var temp;
-        temp=30*fsal;
-        var dfamt;
-        dfamt=temp+temp*(froi/100);
-        var femi;
-        femi=(dfamt/ftenure)/12;
-        document.getElementById("droi").innerHTML="Interest:"+froi;
-        document.getElementById("dname").innerHTML="Name:"+fname;
-        document.getElementById("dlamt").innerHTML="Loan Amount:"+dfamt;
-        document.getElementById("dlemi").innerHTML="EMI:"+femi;
-        document.getElementById("dtenure").innerHTML="Tenure:"+ftenure;
-        document.getElementById("dsal").innerHTML="Salary:"+fsal;
-    }
+        body{margin:0; width: 100%; height: 100%;}
+        #main{
+            background:pink;
+            width:100%;
+            height: 100%;
         }
-    </script>
+        #banner{
+            width:100%;
+            height:300px;
+            background-image: url(field.jpg);
+            background-size:100% 300px;
+    
+        }
+        
+        
+        .img-fluid{
+          
+        }
+        #box1{
+        
+            width:100%;
+            height:350px;
+        }
+        .carousel-item{
+            
+            
+            text-align: center;
+            
+        }
+
+        /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+    </style>
+  
 </head>
     <body>
+    <div id="main">
+      <header>
+       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#"><img src="logo.jpg" class="img-fluid">Vedant Commodities</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#aboutus">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#products">Products</a>
+      </li>
+
+      
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#contactus">Contact Us</a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="http://vedantcommodities.com/prestashop/index.php?">Shop Now</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.payumoney.com/store/buy/vedantcommodities">Quick Shop</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="http://vedantcommodities.com/prestashop/admin093xjbcmw/index.php?controller=AdminLogin&token=b079554c50525d09e7e1e6bd87c52f0c">Admin Login</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
         
-            <h1>Loan Application:</h1>
-        <table border="1">
-            <tr>
-                <TD>Name:<input type="text" id="name" /></TD>
-                <td>Salary:<input type="text" id="sal" /></td>
-            </tr>
-            <tr>
-                <TD>Tenure:<input type="text" id="tenure" /></TD>
-                <td>Loant required:<input type="text" id="lamt" /></td>
-            </tr>
-            <tr>
-                <TD>Rate of Interest:<input type="text" id="roi" /></TD>
-                <td><input type="submit" value="Calculate" onclick="calc()" ></td>
-            </tr>
-        </table>
-            
-        <p id="dname">Name:</p>
-        <p id="dsal">Salary:</p>
-        <p id="dtenure">Tenure:</p>
-        <p id="droi">Rate of Interest:</p>
-        <p id="dlemi">EMI:</p>
-        <p id="dlamt">Approved Loan:</p>
-        <p id="res">Notification:</p>
         
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="b1.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img src="b2.jpg" alt="Chicago">
+    </div>
+    
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<div id="banner">
+        <h1 class="text-center text-capitalize">A REPUTED EXPORT HOUSE FROM INDIA</h1>
+        <p class="text-center">The mission of the company is to establish the name of organization on the world map as one of the reliable and respected firm from India.We are committed towards our clients for best service, best quality genuine material and transparent business policies.
+
+<h4 class="text-center">We are manufacturers & exporters of Flavouring Essences ,Beverages ,Fruits & Pulps ,Flavouring Essences ,Engeneering Products ,Papers</h4></p>
+        </div>
+        </header>
+
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 pb-5"> About Us</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="1.jpg" class="img-fluid"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1><a name="aboutus">Who we are?</a></h1>
+            <hr>
+            <p class="text-justify">Started in 2008, 'Vedant Commodities' is a company launched by two youngsters. With Engineering / Chemistry and Management background from a reputed Universities from Mumbai (Bombay) India , the two brothers had clear vision to establish a name across the globe as reliable and trust worthy export House from India. Our other group company is M/s Pushkar Ayurved, is engaged in the manufacturing of ayurvedic medicines since 2000.The companies are located 70Kms away from Mumbai (Bombay), India. In the beginning Vedant Commodities worked with one overseas client and now we serving to many clients across the seven seas. 'Vedant Commodities', extends services to various industries with the versatile products from foods to engineering. Some buyers may found our products costlier but after using our products buyer come to conclusion that, end product performs well and the consumption could be less. Thus we are successful in building long term relations with our buyers. The company adopts pure professional approach towards the requirement of customer by sourcing the material from right source of right quality at right price. Our impressive clientele includes well known companies in USA, UK, African continent mainly.. VEDANT COMMODITIES is only partner in India in the myriad of various companies that sets the standards of customer service, product quality and value for your money.</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5 pb-5"><a name="products">Products</a></h1>
+<hr class="w-25 mx-auto">
+          <div class="row mb-5">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="1.jpg" class="img-fluid"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Flavouring Essence</h1>
+            <hr>
+            <p class="text-justify">Food Flavours - Segments like Bakery, Confectionery, Tobacco (Water Pipe), Tea, Natural pulp based beverages, Dairy and Ice Cream, Savoury, Fast Foods, Liquor Industry, Sweets and Farsan Marts, Fast Food, Ready to drink beverages industry. Oral Care, Lip Gloss and lip stick etc. Flavours in both liquid & powder forms. Product development Flavour matching & advice Product improvement Guidance in selection of flavours.</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+
+
+
+
+          <div class="row mb-5 mt-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="2.jpg" class="img-fluid"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Beverages</h1>
+            <hr>
+            <p class="text-justify">Flavoured Tea - Manufacturers of various flavoured Teas like Fruity Flavors, Indian Tea Masala, Spicy Flavours . Vedamrut Flavoured Black Tea with various Herbs like Liquorice, Tulsi ( holly basil),Ginger, Cinnamon and others Selected teas ,delicately crafted for enjoyment of black tea, rich herbs and flavouring essence. Flavoured Tea with herbs of medicinal properties. Approved by Tea Board of India , manufactured as per the guidelines of Food Safety And Standards Authority of India(FSSAI).</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+
+
+
+          <div class="row mb-5 mt-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="3.jpg" class="img-fluid"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Fruits & Pulps</h1>
+            <hr>
+            <p class="text-justify">Mango fruits & Mango Alphanso Pulp at a very competitive price and outstanding quality. We export the Alphanso Mangoes without any adulteration of any local varieties.They are hand picked when they are green and ripened naturally and which will be ped accordingly to get naturally ripened fruit.We guarantee that our mangoes are naturally ripened without any chemical process or treatment.Alphanso mango season is generally between mid of March - May end every year. Pulp is packed in metallic tins in various packing through the year. The pulp is available in natural form which gives natural colour and flavor to the end product like mango Sweets. Mango Burfies, Ice creams, Yoghurts, RTD beverages, fruit based drinks, House hold products.This is a pulp made up from 100% Alphonso Mango Fruit, No adulteration of other mango fruit like Kesar, Langra etc. Your end product will be costly but it will be sold in classes not in masses.No aseptic pulp is available in this quality and so which gives natural taste and flavor to improve asthetic appearance of your beverage, sweets, ice-creams etc.Mango pulp is available all around the year.</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+
+
+
+
+          <div class="row mb-5 mt-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="4.jpg" class="img-fluid"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Industrial Chemicals Only non hazardious</h1>
+            <hr>
+            <p class="text-justify">Sodium Silicate is a compound mixture of sodium oxide i.e. Na2o with silica sand i.e. Sio2 with water. Sodium silicate is also called water glass. We source large range of sodium silicates, as per the customer's specific requirements. We supply both Neutral & Alkaline sodium silicate absolute transparent quality i.e. water white Uses of Sodium Silicate : The liquid Sodium Silicate used to manufacture laundry soap, detergent cake, sodium meta silicate, fire resisting & acid proof cement, casting, electrodes.Sodium silicate is used in various applications to manufacture Silica Gel, tooth paste, precept silica, Zeolite, construction chemicals, oil field chemicals, paints, pigments, paper making, paper cones & tubes, foundry fluxes. In addition because of its binding properties, sodium silicate is used in water proofing in Dams Sodium Silicate is a best water proofing agent and it is also used in cement industries and in road construction. Sodium Meta silicate 5H2o is used in Tanning Industries, Leather Industries, Metal Treatment, Washing Powder etc. available in Powder form of various mess size.Silica Gel is available in white and blue colour Indicating & Non-Indicating type. Activated Carbon- for industrial use.</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+
+
+
+
+
+          <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="5.jpg" class="img-fluid"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Engineering Products</h1>
+            <hr>
+            <p class="text-justify">Hardware items like pumps and valves - Kirloskar, KSB pumps, Flanges: MOC , SS304, 316,SA350 grade LF2, and other special material as per clients requirements Conveyer belts; Useful for mining , construction industries, confectionery and biscuit industry, Pharma Industry. V Belts / Canvass Belts / Break Liners:for automobile , railways etc Bearings / Plummer Blocks / Sleeves : Reputed brands available like SKF , FAG etc with good discounts and prime quality. Spare parts : Various oil seals / 'O' Rings as per drawing / samples and standard oil seals available , Couplings , Pulleys, vibration Pads, Trolleys. Industrial knives for paper and leather industry as per drawings and material specification, metallurgy at reasonable prices.</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+
+
+
+
+
+<div class="row mb-5 py-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="6.jpg" class="img-fluid py-5"></div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Paper</h1>
+            <hr>
+            <p class="text-justify">Absorbent Kraft Paper For Laminate Industry used world-wide because consumption of laminates are increasing day by day. One time carbon paper base paper - it is useful for carbon converters to be used as raw material for one time carbon paper. A4 size copier papers, Tissue/paper napkin base paper, Writing printing paper and notebook and register ex - stock available. Various stationery items.</p>
+            <button class="btn-danger mt-2 mb-2">Read more</button>
+          </div>
+
+<footer>
+
+<section class="bg-primary col-lg-12 col-md-12 col-12">
+  
+<article class="py-5 text-center">
+  
+<div class="col-lg-12 col-md-12 col-12">
+<h1 class="display-3 col-lg-12 col-md-12 col-12 text-light">Call us on +91-9049612078 </h1>
+</div>
+
+</article>
+
+</section>
+
+<section class="bg-warning col-lg-12 col-md-12 col-12">
+  
+<article class="py-5 text-center">
+  
+<div class="col-lg-12 col-md-12 col-12">
+<h6 class="display-6 col-lg-10 col-md-10 col-10 text-dark pl-2 pr-2 ml-5 text-center">Address: M/S VEDANT COMMODITIES ANNAPURNA HOUSE, NEAR T.V.TOWER, BADLAPUR (E), THANE - 421 503,INDIA NEAR MUMBAI-( BOMBAY), INDIA Contact Persons Mr.V.R.Joshi (+91 9819054510,) Mr.M.R.Joshi ( +91 9049612078) </h6>
+</div>
+
+</article>
+
+</section>
+<div class="container">
+
+  <div class="form-group">
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4"><a name="contactus">Contact us</a></h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Badlpur</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+91 9049612078</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>support@vedantcommodities.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+</div>
+</div>
+</footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
