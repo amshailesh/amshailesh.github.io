@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>Ease</title> 
+    <meta name="viewport" content="width=device-width">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            color:white;
+            font-family: verdana;
+            box-sizing: border-box;
+        }
+        body{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/laptopback.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+        #menunav li{
+            list-style: none;
+            
+            float:right;
+            margin:20px 20px;
+            padding:10px 20px;
+        }
+        #menudiv{
+           width:100%;
+            float:left;
+        }
+        #menunav li:hover{
+            background: white;
+            color:black;
+            border:1px solid white;
+            transition:0.6s ease;
+        }
+        
+        #home{
+            background: white;
+            color:black;
+        }
+        @media only screen and (max-width:500px){
+            #menunav{
+                width:100%;
+                display:grid;
+                grid-template-columns: 1fr;
+            }
+            #menunav li{
+                margin:0;
+                padding:0;
+                border-top:1px solid white;
+                border-bottom: 1px solid white;
+                
+            }
+            
+        }
+        
+        .containers{
+            float:left;
+            width:100%;
+            height:100%;
+            display: none;
+        }
+        @font-face{
+                src:url('fonts/Cinzel/Cinzel-Regular.ttf');
+                font-family:starwarsfontregular;
+            }
+        @font-face{
+                src:url('fonts/Cinzel/Cinzel-Bold.ttf');
+                font-family:starwarsfontbold;
+            }
+        @font-face{
+                src:url('fonts/Nanum_Gothic/NanumGothic-Regular.ttf');
+                font-family:cleanfontregular;
+            }
+        #content{
+            width:100%;
+            float:left;
+            font-family:starwarsfontregular;
+        }
+        
+        #myname{
+            font-family: starwarsfontregular;
+            font-size:50px;
+            margin: 5% 0 0 0;
+            text-align: center;
+        }
+        #mainreadmore{
+            font-family: starwarsfontbold;
+            margin:0 0 0 35%;
+            width:30%;
+            height:10%;
+            color:white;
+            background:black;
+            font-size:120%;
+        }
+        #myintro{
+            font-family:cleanfontregular;
+            color:white;
+            padding:0 12% 5% 12%;
+            text-align: justify;
+        }
+        #logo{
+            margin: 2% 0 0 1%;
+            width:83px;
+            height:77px;
+        }
+        .address{
+            padding:0 5% 0 5%;
+            text-align:justify;
+            
+        }
+        #about_content{
+            overflow-y: scroll;
+            height:500px;
+            width:100%;
+        }
+        #intropara{
+            color:white;
+        }
+    </style>
+    
+    <script src="jquery.js"></script>
+   <script>
+ $(document).ready(function()
+    {
+     
+     $("#home_content").show();
+     $("#menunav li").click(function(){
+         
+         $(".containers").hide();
+         var id=this.id;
+         $("#"+id+"_content").show();
+     });
+ });
+    </script>
+</head>
+    <body>
+        <header>
+        <div id="menudiv">
+        <ul id="menunav">
+        <li id="home">Home</li>
+        <li id="about">About Us</li>
+        <li id="services">Services</li>
+        <li id="portfolio">Portfolio</li>
+        <li id="contact">Contact Us</li>
+        </ul>
+        </div>
+        </header>
+        <div id="content">
+    <div id="home_content" class="containers">
+    
+        <div id="intropara">
+        <p id="myname">SHAILESH BHAT</p><p id="myintro">I am BSc IT Graduate, Mumbai University. Worked in Naaptol.com, Justbuylive.com, Maayra Retail, Lumina Datamatics in E-Commerce Sector since 2011. Full Stack developer since 2019. </p><input type="button" value="Read More" id="mainreadmore" />
+        </div>
+    </div>
+    <div id="about_content" class="containers">
+        <br>
+    <h1 style="font-family:starwarsfontregular;">About</h1>
+        <P class="para">
+        <p class="address">I became Full-Stack web developer in 2019!
+
+Previously i used to work for Naaptol.com, JustBuyLive.com, Maayra Retail & Lumina Datamatics. I worked from June 2011 to Oct 2018 in those companies.Then i thought lets try Online business & became Amazon Seller for around a year in 2019. Business didn't go well as planned. Finally i felt that, i must persue my original career; that is web development. So i too a Full-Stack web developer course in Seed Infotech, which i had heard of when i was in college. After passing out from Seed, i am looking to get my new career started. I like webdesiging & development.</p>
+        
+        <p class="address">Full-Stack Developer Course,Seed Infotech
+Nov 2019 - April 2020
+
+I completed Full-Stack Developer Course from Seed Infotech.
+
+Amazon Seller,Monthlyfair
+Dec 2018 - Nov 2019
+
+I was a Amazon Seller & worked from my home. I enjoyed doing business.
+
+Group Leader, Lumina Datamatics
+Jan 2018 - Oct 2018
+
+I was group leader for Lumina Datamatics in Amazon US process.
+
+Upload Incharge, Maarya Retail
+Jan 2016 - Dec 2017
+
+Upload Incharge in Maarya Retail Pvt Ltd.
+
+Listing Executive, JustBuyLive.com
+sep 2015 - Sep 2016
+
+Upload listings in JustBuyLive.com
+
+Ecommerce Executive, Naaptol.com
+June 2011 - Aug 2014
+
+Upload Incharge of Home Kitchen & Applinaces listings in Naaptol.com
+
+Persuing, MSc IT
+Jan 2009 - June 2011
+
+I was persuing MSc IT but i failed.
+
+Education
+BSc IT, Mumbai University
+2006 - 2009
+
+I graduated from Mumbai University in Bachelor of Information technonogy.</p>
+        <p class="address">The Old Minstrel<br>
+        The old Minstrel alone at the water covered land;<br>
+        was once a heartless butcher, alone at the sinful land;<br><br>
+        Work was full, plenty was the money;<br>
+        but could not get the knight's sleep;<br><br>
+        For it was him, not he who was the judge;<br>
+        Many years after the man's death;<br>
+        was his presence felt by the prisoner's gang;<br><br>
+        Crime reduced, miser's died;<br>
+        giving no sign of willful dine.<br>
+            
+        </p>
+        </P>
+    </div>
+    <div id="portfolio_content" class="containers" ><br>
+    <h1 style="font-family:starwarsfontregular;">Portfolio</h1>
+        <ul type="circle">
+            <li><a href="http://www.ecotechpolymers.net">www.ecotechpolymers.net</a></li>
+        <li><a href="http://www.vedantcommodities.com">www.vedantcommodities.com</a></li>
+        <li><a href="http://www.wallkeepers.in">www.wallkeepers.in</a></li>
+        </ul>
+    </div>
+    <div id="contact_content" class="containers"><br>
+    <h1 style="font-family:starwarsfontregular;">Contact</h1>
+        <p class="address">Address:A7402, Adwait Chs, Star Colony, Manpada road, Dombivili East, Thane, Maharashtra, India, Pincode:421204.</p>
+        <p class="address">Mobile: +91-9920070452, E-mail: amshaileshpayments@gmail.com</p>
+    </div>
+    <div id="services_content" class="containers"><br>
+    <h1 style="font-family:starwarsfontregular;">Services</h1>
+        
+    </div>
+        </div>    
+    
+    </body>
+</html>
