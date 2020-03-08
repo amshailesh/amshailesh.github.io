@@ -27,6 +27,7 @@
         #menudiv{
            width:100%;
             float:left;
+            
         }
         #menunav li:hover{
             background: white;
@@ -50,6 +51,7 @@
                 padding:0;
                 border-top:1px solid white;
                 border-bottom: 1px solid white;
+                position:fixed;
                 
             }
             
@@ -118,6 +120,13 @@
         #intropara{
             color:white;
         }
+        #about_content1{
+            
+            overflow-y: scroll;
+            height:500px;
+            width:100%;
+            
+        }
     </style>
     
     <script src="jquery.js"></script>
@@ -133,11 +142,11 @@
          $("#"+id+"_content").show();
      });
      
-     $("#mainreadmore").click(function(){
-         
-         
-         $("#about_content").show();
-     });
+     
+     
+     
+     
+     
  });
     </script>
 </head>
@@ -157,8 +166,7 @@
     <div id="home_content" class="containers">
     
         <div id="intropara">
-        <p id="myname">SHAILESH BHAT</p><p id="myintro">I am BSc IT Graduate, Mumbai University. Worked in Naaptol.com, Justbuylive.com, Maayra Retail, Lumina Datamatics in E-Commerce Sector since 2011. Full Stack developer since 2019. </p><a href=""><input type="button" value="Read More" id="mainreadmore" /></a>
-        </div>
+        <p id="myname">SHAILESH BHAT</p><p id="myintro">I am BSc IT Graduate, Mumbai University. Worked in Naaptol.com, Justbuylive.com, Maayra Retail, Lumina Datamatics in E-Commerce Sector since 2011. Full Stack developer since 2019. </p>
     </div>
     <div id="about_content" class="containers">
         <br>
@@ -222,6 +230,13 @@ I graduated from Mumbai University in Bachelor of Information technonogy.</p>
         </p>
         </P>
     </div>
+            
+            
+            
+            
+            
+            
+            
     <div id="portfolio_content" class="containers" ><br>
     <h1 style="font-family:starwarsfontregular;">Portfolio</h1>
         <ul type="circle">
