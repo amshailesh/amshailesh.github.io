@@ -1,211 +1,204 @@
 <html>
-
 <head>
-    <title>Assembled Computer store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shailesh Bhat</title>
     <style>
-        * {
-            box-sizing: border-box;
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+        #main{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+            float:left;
+        }
+        @font-face{
+            src:url(fonts/Cinzel/Cinzel-Regular.ttf);
+            font-family:cinzelfont;
+        }
+        #brandheader{
+            float:left;
+            margin:0;
+            padding:0;
+            width:100%;
+            height:50px;
+           
+            border-top:1px solid black;
+            border-bottom: 1px solid black;
+            
+        }
+        #brandheader h1{
+            font-family:cinzelfont;
+            margin:0;
+            padding-left: 5%;
+            float:left;
+        }
+        #brandheader h3{
+            font-family:cinzelfont;
+            margin:0;
+            padding-left: 5%;
+            padding-top: 0.5%;
+            float:left;
+            
+        }
+        #brandheader h3 a{
+            text-decoration: none;
+        }
+        #brandheader h2{
+            font-family:cinzelfont;
+            margin:0;
+            
+            padding-top: 0.5%;
+            padding-right: 5%;
+            float:right;
+        }
+        
+        #content{
+            width:100%;
+            float:left;
+        }
+        #home{
+            width:100%;
+            float:left;
+        }
+        #about{
+            width:100%;
+            float:left;
+        }
+        #portfolio{
+            width:100%;
+            float:left;
+        }
+        #contact{
+            width:100%;
+            float:left;
+        }
+        
+        
+        .container{
+            
+            background: lightgrey;
+            border-bottom: 1px solid black;
             font-family: verdana;
+            padding-bottom: 1%;
         }
-
-        body {
-            margin: 0;
-            padding: 0;
+        .container h3{
+            font-family:cinzelfont;
+            margin:0;
+            padding-left: 5%;
+            float:left;
+           }
+        
+        .container p{
+            padding-top:1%;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: justify;
         }
-
-        #main {
-            width: 100%;
-            height: 100%;
+        .container h4{
+            font-family:verdana;
+            margin:0;
+            padding-left: 5%;
+            float:left;
+           }
+        #contact{
+            
+            background: black;
+            color:white;
         }
-
-        #logo {
-            width: 100%;
-            height: 100px;
-            background: #1F6521;
-            float: left;
+        
+        #contact h2 a{
+            
+            text-decoration: none;
+            padding-left: 5%;
+            padding-right: 5%;
+            color:aquamarine;
+            
         }
-
-        #logo img {
-
-            margin: 12.5px 0 0 12.5px;
-            width: 75px;
-            height: 75px;
-            float: left;
-            padding-right: 12.5px;
+        #contact p{
+             padding-top:1%;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: justify;
         }
-
-        #logo h1 {
-            color: white;
-
+        @media only screen and (max-width:600px)
+        {
+            #brandheader{
+                
+         width:100%;
+                
+                float:left;
+                
+            }
+            #brandheader h1{
+                width:80%;
+                float:left;
+                
+            }
+            #brandheader h3{
+                width:100%;
+                float:left;
+                display: none;
+            }
+            #brandheader h2{
+                width:20%;
+                float:left;
+            }
+            #contact h2{
+                font-size:3vw;
+            }
+             
         }
-
-        #divlinks {
-            width: 20%;
-            height: 500px;
-            background: #86C232;
-            float: left;
-        }
-
-        #divlinkscontent {
-            width: 80%;
-            height: 500px;
-            background: #FBE8A6;
-            float: left;
-            overflow-y: scroll;
-        }
-
-        .container {
-            width: 100%;
-            height: 100%;
-        }
-
-        .container p {
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-
-        .container h1 {
-            padding-left: 25px;
-
-        }
-
-        .listing {
-            width: 25%;
-            height: 100px;
-            background: orange;
-            margin-right: 10px;
-            margin-left: 10px;
-            margin-bottom: 10px;
-            float: left;
-        }
-
-        #footer {
-            width: 100%;
-            height: 100%;
-            background: orange;
-            text-align: center;
-            float: left;
-        }
-
     </style>
-    <script src="jquery.js"></script>
-    <script src="jquery-ui.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#divprocessor").show();
-            $("#divlinks ul li a").click(function() {
-                $(".container").hide();
-                var id = this.id;
-
-                $("#div" + id).show();
-            });
-        });
-
-    </script>
-
 </head>
-
-<body>
+    <body>
     <div id="main">
-        <div id="logo"><img src="img/logo.png" />
-            <h1>Assembled Computer Store</h1>
+        <div id="brandheader">
+        <h1>Shailesh Bhat</h1>
+            <h3><a href="#home">Home</a></h3>
+            <h3><a href="#about">About</a></h3>
+            <h3><a href="#portfolio">Portfolio</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
+            <h2>=</h2>
         </div>
-        <div id="divlinks">
-            <ul>
-                <li><a id="cabinet">CPU Cabinet</a></li>
-                <li><a id="processor">Processor</a></li>
-                <li><a id="cpucooler">CPU Cooler</a></li>
-                <li><a id="motherboard">Motherboard</a></li>
-                <li><a id="ram">RAM</a></li>
-                <li><a id="gpu">Graphic Card</a></li>
-                <li><a id="psu">PSU or Power Supply Unit</a></li>
-                <li><a id="hdd">HDD or SDD</a></li>
-            </ul>
+        <div id="content">
+        <div class="container" id="home">
+            <h3>Home</h3>
+            </div>
+            <div class="container" id="about">
+                <h3>About</h3>
+                
+                <p>Hi, my name is <strong>Shailesh Manjunath Bhat</strong>. A graduate in <strong>Bachelor of Science in Information Technology</strong> from Mumbai University. Living in Dombivili, Maharashtra, India, <strong>Rondinia</strong>. Born on 18th February 1989, i am 31 years young now.
+                
+                I have learnt <strong>HTML5, CSS3, Javascript, JQuery, PHP & MySQL</strong> from Seed Infotech, Thane; from <strong>November 2019 to June 2020.</strong>
+                Before 2019, from <strong>June 2011 to Oct 2019 i was working in E-Commerce Industry</strong>. Starting from June 2011 i worked for <strong>Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd.</strong> Yeah! i know, its almost 7 years.</p>
+            </div>
+            <div class="container" id="portfolio">
+            <h3>Portfolio</h3>
+                <p>
+                <h4>(Tea manufacturer company, Badlapur. <a href="http://www.vedantcommodities.com">www.vedantcommodities.com</a>)</h4><br>
+                <h4>(Interior Designer, Dombivili. <a href="wallkeepers/">www.wallkeepers.in</a>)</h4>
+                </p>
+            </div>
+            <div class="container" id="contact">
+            <h3>Contact</h3>
+                <p>Address: A/7402, Adwait Chs, Star colony, Manpada road, Dombivili East, Thane, Maharashtra, India-421204.
+                <h2 id="whatsapp"><a href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website." >Click here Whatsapp 9920070452</a></h2>
+                <h2><a href="http://www.facebook.com/amshailesh">Facebook</a></h2>
+                <h2><a href="http://www.instagram.com/web_shailesh">Instagram</a></h2>
+                </p>
+            </div>
+        
         </div>
-        <div id="divlinkscontent">
-            <div id="divcabinet" class="container">
-                <h1>CPU Cabinet</h1>
-                <p>CPU Cabinet is a Box in which all the CPU parts are fitted.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divprocessor" class="container">
-                <h1>Processor</h1>
-                <p>Processor or CPU(Central Processing Unit) is a small electronic chip which plugs into motherboard. It is the hardware part which process all the data in the computer.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divcpucooler" class="container">
-                <h1>CPU Cooler</h1>
-                <p>Its a fan that cools the CPU.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divmotherboard" class="container">
-                <h1>Motherboard</h1>
-                <p>Motherboard is a biggest electronic chip in a computer. All parts of a PC are connected with each other through the motherboard.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divram" class="container">
-                <h1>RAM or Random Access Memory</h1>
-                <p>RAM or Random Access Memory is a temporary space in a chipset which loads all the programs & softwares so that computer can do its task.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divgpu" class="container">
-                <h1>GPU or Graphic Card</h1>
-                <p>GPU or Graphic Card is a temporary space in a chipset which loads all the programs & softwares so that computer can do its task.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divpsu" class="container">
-                <h1>PSU or Power Supply Unit</h1>
-                <p>PSU or Power Supply Unit is a part that supplies all computer parts with electricity.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
-            <div id="divhdd" class="container">
-                <h1>HDD or SDD or Storage</h1>
-                <p>HDD or SDD is a pc part where all data is stored.</p>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-                <div class="listing"><input type="submit" value="Add" /></div>
-            </div>
+        
+        
         </div>
-        <div id="footer">Address: Seed Infotech, Thane.</div>
-    </div>
-</body>
-
+    </body>
 </html>
