@@ -1,0 +1,248 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-19 18:30:23
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-19 18:30:22 118.67.248.120 GET /images/img6073656.jpg - 80 - 94.175.128.87 Mozilla/5.0+(Windows+NT+6.0)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.112+Safari/537.36 200 0 0 1504
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-19 19:17:54
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-19 19:17:54 118.67.248.120 GET /services.html - 80 - 217.182.132.33 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 481
+2017-04-19 19:18:14 118.67.248.120 GET /robots.txt - 80 - 151.80.39.22 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 404 0 2 320
+2017-04-19 19:31:38 118.67.248.120 GET /contactus1.html - 80 - 217.182.132.58 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 593
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-19 19:48:42
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-19 19:48:42 118.67.248.120 GET / - 80 - 167.114.230.104 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/27.0.1453.90+Safari/537.36 200 0 0 793
+2017-04-19 19:49:58 118.67.248.120 HEAD / - 80 - 65.36.241.48 InternetSeer.com 200 0 0 256
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-19 21:04:37
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-19 21:04:37 118.67.248.120 GET /assets/js/'+w[C]+' - 80 - 180.76.15.150 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 404 11 64 450
+2017-04-19 21:09:24 118.67.248.120 GET /assets/images/slides/img2.jpg 1492560000047 80 - 66.249.75.62 Googlebot-Image/1.0 200 0 0 1912
+2017-04-19 21:14:13 118.67.248.120 GET /projects.html - 80 - 46.229.168.71 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 200 0 0 1203
+2017-04-19 21:14:22 118.67.248.120 GET /price.html - 80 - 46.229.168.75 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 200 0 0 870
+2017-04-19 21:14:34 118.67.248.120 GET / - 80 - 46.229.168.66 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 200 0 0 854
+2017-04-19 21:16:22 118.67.248.120 GET /assets/images/slides/img1.jpg 1492560000045 80 - 66.249.75.62 Googlebot-Image/1.0 200 0 0 2282
+2017-04-19 21:19:50 118.67.248.120 GET /assets/images/slides/img3.jpg 1492560010080 80 - 66.249.75.62 Googlebot-Image/1.0 200 0 0 1897
+2017-04-19 21:29:28 118.67.248.120 GET /wp-login.php - 80 - 198.204.225.115 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/46.0.2490.80+Safari/537.36 404 0 2 527
+2017-04-19 21:30:32 118.67.248.120 GET /robots.txt - 80 - 198.204.225.115 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/46.0.2490.80+Safari/537.36 404 0 2 514
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-19 22:34:19
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-19 22:34:18 118.67.248.120 GET /assets/images/portfolio/img3.jpg - 80 - 51.255.64.106 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 1040
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 00:35:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 00:35:17 118.67.248.120 GET /robots.txt - 80 - 46.229.164.100 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 404 0 2 721
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 00:54:38
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 00:54:37 118.67.248.120 GET /robots.txt - 80 - 141.8.142.26 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 404 0 2 204
+2017-04-20 00:54:41 118.67.248.120 GET /assets/images/portfolio/img6.jpg - 80 - 95.108.179.21 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 304 0 0 244
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 01:35:35
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 01:35:35 118.67.248.120 GET /robots.txt - 80 - 40.77.167.148 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 404 0 2 677
+2017-04-20 01:35:38 118.67.248.120 GET /kitchen.html - 80 - 207.46.13.64 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 1083
+2017-04-20 01:35:47 118.67.248.120 GET /robots.txt - 80 - 157.55.39.50 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 404 0 2 583
+2017-04-20 01:38:16 118.67.248.120 GET /images/interline001.gif - 80 - 40.77.167.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 250
+2017-04-20 01:38:16 118.67.248.120 GET /images/nav14728280i.gif - 80 - 40.77.167.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 276
+2017-04-20 01:38:16 118.67.248.120 GET /qmimages/gradient_17.gif - 80 - 40.77.167.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 404 0 2 490
+2017-04-20 01:38:21 118.67.248.120 GET /images/nav14728281i.gif - 80 - 207.46.13.64 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 265
+2017-04-20 01:38:26 118.67.248.120 GET /images/nav14728282i.gif - 80 - 157.55.39.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 319
+2017-04-20 01:38:26 118.67.248.120 GET /images/paste6.jpg - 80 - 157.55.39.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 313
+2017-04-20 01:38:26 118.67.248.120 GET /images/shape2016953.gif - 80 - 157.55.39.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 299
+2017-04-20 01:38:26 118.67.248.120 GET /images/shape1472830.gif - 80 - 157.55.39.50 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 352
+2017-04-20 01:38:32 118.67.248.120 GET /images/img6073656.jpg - 80 - 40.77.167.60 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 1511
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 02:15:24
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 02:15:24 118.67.248.120 GET /robots.txt - 80 - 40.77.167.148 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 404 0 2 695
+2017-04-20 02:15:27 118.67.248.120 GET /images/img18.jpg - 80 - 157.55.39.50 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 1510
+2017-04-20 02:17:46 118.67.248.120 GET /images/img21.jpg - 80 - 157.55.39.50 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 2165
+2017-04-20 02:20:34 118.67.248.120 GET /robots.txt - 80 - 52.36.218.238 Mozilla/5.0+(compatible;+houzzbot;++http://www.houzz.com/) 404 0 2 559
+2017-04-20 02:20:35 118.67.248.120 GET / - 80 - 52.36.218.238 Mozilla/5.0+(compatible;+houzzbot;++http://www.houzz.com/) 200 0 0 1046
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 02:39:21
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 02:39:20 118.67.248.120 GET /images/nav14728280a.gif - 80 - 199.30.24.202 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+BingPreview/1.0b 200 0 0 283
+2017-04-20 02:39:22 118.67.248.120 GET /images/nav14728281a.gif - 80 - 65.55.210.169 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+BingPreview/1.0b 200 0 0 388
+2017-04-20 02:39:25 118.67.248.120 GET /images/nav14728282a.gif - 80 - 65.55.210.43 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+BingPreview/1.0b 200 0 0 264
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 04:40:50
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 04:40:50 118.67.248.120 GET /projects.html - 80 - 180.76.15.14 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0 507
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 05:39:41
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 05:39:40 118.67.248.120 GET /images/img6501203.jpg - 80 - 168.235.207.150 UCWEB/2.0+(Java;+U;+MIDP-2.0;+Nokia203/20.37)+U2/1.0.0+UCBrowser/8.7.0.218+U2/1.0.0+Mobile 200 0 0 1222
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 06:47:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 06:47:46 118.67.248.120 GET /images/portfolio/img8.jpg - 80 - 137.74.207.164 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 404 0 64 576
+2017-04-20 06:57:20 118.67.248.120 HEAD / - 80 - 80.248.225.142 DomainCrawler/3.0+(info@domaincrawler.com;+http://www.domaincrawler.com/homeecraft.com) 200 0 0 523
+2017-04-20 06:57:22 118.67.248.120 GET /robots.txt - 80 - 80.248.225.142 DomainCrawler/3.0+(info@domaincrawler.com;+http://www.domaincrawler.com/homeecraft.com) 404 0 2 409
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 07:55:00
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 07:54:59 118.67.248.120 GET /robots.txt - 80 - 37.9.113.5 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 404 0 2 378
+2017-04-20 07:54:59 118.67.248.120 GET /robots.txt - 80 - 178.154.200.64 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 404 0 2 200
+2017-04-20 07:55:03 118.67.248.120 GET / - 80 - 95.108.179.21 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 224
+2017-04-20 07:55:03 118.67.248.120 GET / - 80 - 141.8.142.26 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 451
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 09:11:12
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 09:11:12 118.67.248.120 GET /images/img5794343.jpg - 80 - 137.97.11.127 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:45.0)+Gecko/20100101+Firefox/45.0 200 0 0 1761
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 10:21:32
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 10:21:31 118.67.248.120 GET /images/img6073656.jpg - 80 - 125.22.43.15 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 200 0 0 3870
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 11:14:49
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 11:14:49 118.67.248.120 GET /images/img5794343.jpg - 80 - 59.183.129.57 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 200 0 0 2525
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 11:53:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 11:53:18 118.67.248.120 HEAD / - 80 - 65.36.241.48 InternetSeer.com 200 0 0 668
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 12:13:33
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 12:13:33 118.67.248.120 GET /images/nav14728280i.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 13479
+2017-04-20 12:13:33 118.67.248.120 GET /images/nav14728281i.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 13654
+2017-04-20 12:13:33 118.67.248.120 GET /images/shape1472830.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 13814
+2017-04-20 12:13:33 118.67.248.120 GET /images/nav14728282i.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 13850
+2017-04-20 12:13:33 118.67.248.120 GET /images/nav14728283i.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 13838
+2017-04-20 12:13:33 118.67.248.120 GET /images/nav14728284i.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 13839
+2017-04-20 12:13:40 118.67.248.120 GET /images/nav14728280a.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 7479
+2017-04-20 12:13:40 118.67.248.120 GET /images/nav14728281a.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 7580
+2017-04-20 12:13:42 118.67.248.120 GET /images/nav14728282a.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 8221
+2017-04-20 12:13:42 118.67.248.120 GET /images/nav14728283a.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 8258
+2017-04-20 12:13:42 118.67.248.120 GET /images/nav14728284a.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 8278
+2017-04-20 12:13:51 118.67.248.120 GET /images/paste6.jpg - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 1236 30949
+2017-04-20 12:13:52 118.67.248.120 GET /images/shape1525690.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 11217
+2017-04-20 12:13:52 118.67.248.120 GET /images/shape2016953.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 11298
+2017-04-20 12:13:55 118.67.248.120 GET /images/interline001.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 1236 13612
+2017-04-20 12:14:24 118.67.248.120 GET /kitchen.html - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 84167
+2017-04-20 12:14:33 118.67.248.120 GET /qmimages/gradient_17.gif - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 404 0 2 8861
+2017-04-20 12:16:15 118.67.248.120 GET /kitchen.html - 80 - 54.244.48.22 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727;+MAXTHON+2.0);+Connect+Us:+webauth@cmcm.com 200 0 0 4717
+2017-04-20 12:16:56 118.67.248.120 GET /images/img6073656.jpg - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 1236 193517
+2017-04-20 12:21:26 118.67.248.120 GET /favicon.ico - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 200 0 0 2336
+2017-04-20 12:21:28 118.67.248.120 GET /images/paste6.jpg - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 206 0 0 1783
+2017-04-20 12:21:28 118.67.248.120 GET /images/img6073656.jpg - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 206 0 0 700
+2017-04-20 12:21:29 118.67.248.120 GET /images/paste6.jpg - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 206 0 0 1478
+2017-04-20 12:21:34 118.67.248.120 GET /images/img6073656.jpg - 80 - 101.57.24.169 Mozilla/5.0+(Linux;+U;+Android+4.2.2;+en-gb;+GT-S7582+Build/JDQ39)+AppleWebKit/534.30+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/534.30 206 0 0 5157
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 12:47:57
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 12:47:56 118.67.248.120 GET / - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 1241
+2017-04-20 12:47:57 118.67.248.120 GET /index.html - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 293
+2017-04-20 12:47:57 118.67.248.120 GET /assets/css/style.css - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 749
+2017-04-20 12:47:58 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 293
+2017-04-20 12:47:58 118.67.248.120 GET /contact.html - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 407
+2017-04-20 12:48:00 118.67.248.120 GET /services.html - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 307
+2017-04-20 12:48:00 118.67.248.120 GET /about.html - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 333
+2017-04-20 12:48:00 118.67.248.120 GET /wallpapers.html - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 384
+2017-04-20 12:48:01 118.67.248.120 GET /projects.html - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 418
+2017-04-20 12:48:01 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 490
+2017-04-20 12:48:05 118.67.248.120 GET /assets/css/bootstrap.min.css - 80 - 38.100.21.62 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.2) 200 0 0 3181
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 13:54:42
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 13:54:42 118.67.248.120 GET /robots.txt - 80 - 157.55.39.25 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 404 0 2 708
+2017-04-20 13:55:09 118.67.248.120 GET / - 80 - 157.55.39.140 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 1061
+2017-04-20 13:56:19 118.67.248.120 GET /images/img5794343.jpg - 80 - 91.141.2.23 Mozilla/5.0+(Linux;+Android+6.0.1;+SAMSUNG+SM-G925F+Build/MMB29K)+AppleWebKit/537.36+(KHTML,+like+Gecko)+SamsungBrowser/5.0+Chrome/51.0.2704.106+Mobile+Safari/537.36 200 0 0 1143
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 14:20:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 14:20:14 118.67.248.120 GET /robots.txt - 80 - 77.75.79.101 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 518
+2017-04-20 14:20:17 118.67.248.120 GET /old.html - 80 - 77.75.79.101 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 304 0 0 536
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 14:37:28
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 14:37:28 118.67.248.120 GET /images/img6073656.jpg - 80 - 59.152.59.34 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 200 0 0 590
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 15:23:56
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 15:23:56 118.67.248.120 GET / - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1151
+2017-04-20 15:23:57 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 584
+2017-04-20 15:23:57 118.67.248.120 GET /assets/css/style.css - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 869
+2017-04-20 15:23:57 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 937
+2017-04-20 15:23:57 118.67.248.120 GET /assets/css/camera.css - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1252
+2017-04-20 15:23:57 118.67.248.120 GET /assets/js/modernizr-latest.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1411
+2017-04-20 15:23:58 118.67.248.120 GET /assets/css/bootstrap.min.css - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1671
+2017-04-20 15:23:59 118.67.248.120 GET /assets/js/fancybox/jquery.fancybox.pack.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 258
+2017-04-20 15:23:59 118.67.248.120 GET /assets/js/jquery.min.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 700
+2017-04-20 15:23:59 118.67.248.120 GET /assets/js/jquery.easing.1.3.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 515
+2017-04-20 15:23:59 118.67.248.120 GET /assets/js/jquery.mobile.customized.min.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 586
+2017-04-20 15:24:00 118.67.248.120 GET /assets/js/camera.min.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 774
+2017-04-20 15:24:00 118.67.248.120 GET /assets/js/bootstrap.min.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1029
+2017-04-20 15:24:02 118.67.248.120 GET /assets/fonts/fontawesome-webfont.woff v=4.0.3 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 404 3 50 698
+2017-04-20 15:24:02 118.67.248.120 GET /assets/images/logo.png - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 344
+2017-04-20 15:24:02 118.67.248.120 GET /assets/images/bg.png - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 365
+2017-04-20 15:24:02 118.67.248.120 GET /assets/js/custom.js - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 349
+2017-04-20 15:24:03 118.67.248.120 GET /assets/images/news2.jpg - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 576
+2017-04-20 15:24:03 118.67.248.120 GET /assets/images/news3.jpg - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 711
+2017-04-20 15:24:03 118.67.248.120 GET /assets/images/news4.jpg - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 615
+2017-04-20 15:24:04 118.67.248.120 GET /assets/fonts/fontawesome-webfont.ttf v=4.0.3 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1503
+2017-04-20 15:24:04 118.67.248.120 GET /assets/images/arrow.png - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 671
+2017-04-20 15:24:04 118.67.248.120 GET /assets/images/patterns/overlay1.png - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 404 0 2 267
+2017-04-20 15:24:06 118.67.248.120 GET /assets/images/camera_skins.png - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 479
+2017-04-20 15:24:06 118.67.248.120 GET /assets/css/assets/images/camera-loader.gif - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 404 0 2 536
+2017-04-20 15:24:09 118.67.248.120 GET /assets/images/slides/img1.jpg 1492701797132 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 1589
+2017-04-20 15:24:16 118.67.248.120 GET /favicon.ico - 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 261
+2017-04-20 15:24:20 118.67.248.120 GET /assets/images/slides/img2.jpg 1492701807905 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 0 5087
+2017-04-20 15:24:53 118.67.248.120 GET /assets/images/slides/img3.jpg 1492701817830 80 - 174.196.143.45 Mozilla/5.0+(Linux;+Android+7.0;+VS995+Build/NRD90M)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.132+Mobile+Safari/537.36 200 0 121 28453
+2017-04-20 15:27:12 118.67.248.120 GET /images/portfolio/img10.jpg - 80 - 51.255.65.26 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 404 0 64 168
+2017-04-20 15:35:52 118.67.248.120 GET /robots.txt - 80 - 77.75.79.119 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 305
+2017-04-20 15:35:54 118.67.248.120 GET /images/portfolio/img7.jpg - 80 - 77.75.79.119 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 314
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 17:34:57
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 17:34:57 118.67.248.120 GET /robots.txt - 80 - 178.255.215.72 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) 404 0 64 411
+2017-04-20 17:34:59 118.67.248.120 GET / - 80 - 178.255.215.72 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) 200 0 0 1047
+2017-04-20 17:39:22 118.67.248.120 GET / - 80 - 123.125.71.40 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 976
+2017-04-20 17:39:23 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 123.125.71.100 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 546
+2017-04-20 17:39:23 118.67.248.120 GET /assets/css/style.css - 80 - 123.125.71.33 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 773
+2017-04-20 17:39:23 118.67.248.120 GET /assets/css/camera.css - 80 - 220.181.108.118 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1122
+2017-04-20 17:39:23 118.67.248.120 GET /assets/js/modernizr-latest.js - 80 - 123.125.71.31 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1288
+2017-04-20 17:39:24 118.67.248.120 GET /assets/css/bootstrap.min.css - 80 - 220.181.108.95 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1676
+2017-04-20 17:39:24 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 123.125.71.109 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1706
+2017-04-20 17:39:27 118.67.248.120 GET /assets/fonts/fontawesome-webfont.ttf v=4.0.3 80 - 123.125.71.56 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1220
+2017-04-20 17:39:28 118.67.248.120 GET /assets/fonts/fontawesome-webfont.ttf v=4.0.3 80 - 220.181.108.181 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1699
+2017-04-20 17:39:29 118.67.248.120 GET /assets/fonts/fontawesome-webfont.ttf v=4.0.3 80 - 123.125.71.54 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 3005
+2017-04-20 17:39:37 118.67.248.120 GET /assets/js/fancybox/jquery.fancybox.pack.js - 80 - 123.125.71.110 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1342
+2017-04-20 17:39:38 118.67.248.120 GET /assets/js/jquery.min.js - 80 - 123.125.71.104 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 11577
+2017-04-20 17:39:39 118.67.248.120 GET /assets/js/jquery.mobile.customized.min.js - 80 - 123.125.71.52 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 788
+2017-04-20 17:39:41 118.67.248.120 GET /assets/js/jquery.easing.1.3.js - 80 - 220.181.108.101 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_0+like+Mac+OS+X)+AppleWebKit/600.1.3+(KHTML,+like+Gecko)+Version/8.0+Mobile/12A4345d+Safari/600.1.4 200 0 0 1184
+2017-04-20 17:40:48 118.67.248.120 GET /homeecraft-brochure-2016.pdf - 80 - 178.255.215.72 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) 200 0 995 3474
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-20 17:57:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-20 17:57:36 118.67.248.120 GET /robots.txt - 80 - 77.75.78.165 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 343
+2017-04-20 17:57:38 118.67.248.120 GET /images/shape1472830.gif - 80 - 77.75.78.165 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 304 0 0 168

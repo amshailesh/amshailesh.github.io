@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body{
+padding:0px;
+margin-top:25px;
+margin-bottom:25px;
+margin-left:0px;
+margin-right:0px;
+background-color:#924919;
+}
+pre{
+padding:0px;
+margin:0px;
+}
+.top{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#FFFFFF;
+text-align:justify;
+}
+.top a{
+color:#333333;
+text-decoration:none;
+}
+.top a:hover{
+color:#FFFFCC;
+text-decoration:none;
+}
+.menu{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+color:#FFFFFF;
+}
+.menu a{
+color:#FFFFFF;
+text-decoration:none;
+}
+.menu a:hover{
+color:#E9D4AE;
+text-decoration:none;
+}
+.bg{
+background-image:url(images/index_36.gif);
+background-repeat:no-repeat;
+background-position:8px;
+padding-left:20px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#990000;
+}
+.bg a{
+color:#990000;
+text-decoration:none;
+}
+.bg a:hover{
+color:#0000FF;
+text-decoration:none;
+}
+.body{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#A96F49;
+text-align:justify;
+color:#A96F49;
+}
+.body a{
+color:#A96F49;
+text-decoration:none;
+}
+.body a:hover{
+color:#333333;
+text-decoration:none;
+}

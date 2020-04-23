@@ -1,0 +1,160 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 19:06:56
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 19:06:56 118.67.248.120 GET /images/portfolio/img7.jpg - 80 - 164.132.161.64 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 404 0 64 452
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 19:42:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 19:42:47 118.67.248.120 GET /robots.txt - 80 - 207.241.229.243 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 679
+2017-04-08 19:42:54 118.67.248.120 GET /images/portfolio/img8.jpg - 80 - 207.241.229.243 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 529
+2017-04-08 19:51:22 118.67.248.120 GET /images/img5794343.jpg - 80 - 66.102.6.66 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko;+Google+Web+Preview)+Chrome/27.0.1453+Safari/537.36 200 0 0 1193
+2017-04-08 20:05:59 118.67.248.120 GET /sidebar-right.html - 80 - 46.229.168.69 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 200 0 0 842
+2017-04-08 20:06:11 118.67.248.120 GET /sidebar-right.html - 80 - 46.229.168.69 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 200 0 0 940
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 20:39:49
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 20:39:48 118.67.248.120 GET / - 80 - 54.198.225.38 Mozilla/5.0+(Windows;+U;+Windows+NT+6.0;+en-US;+rv:1.9.2.3)+Gecko/20100401+Firefox/3.6.3+GTB6+(.NET+CLR+3.5.30729) 200 0 0 1061
+2017-04-08 20:49:09 118.67.248.120 GET /about.html - 80 - 157.55.39.211 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) 200 0 0 699
+2017-04-08 20:55:53 118.67.248.120 GET /images/portfolio/img11.jpg - 80 - 207.241.231.147 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 574
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 21:32:16
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 21:32:15 118.67.248.120 GET /about.html - 80 - 207.46.13.241 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) 200 0 0 745
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 22:15:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 22:15:10 118.67.248.120 GET /AboutUs1.html - 80 - 164.132.161.85 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 472
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 22:39:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 22:39:29 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 207.46.13.51 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 708
+2017-04-08 22:39:29 118.67.248.120 GET /assets/css/style.css - 80 - 207.46.13.51 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 529
+2017-04-08 22:42:48 118.67.248.120 GET /robots.txt - 80 - 180.76.15.18 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 404 0 64 102
+2017-04-08 22:42:48 118.67.248.120 GET /robots.txt - 80 - 180.76.15.12 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 404 0 64 101
+2017-04-08 22:43:06 118.67.248.120 GET / - 80 - 180.76.15.32 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0 512
+2017-04-08 22:48:59 118.67.248.120 GET /robots.txt - 80 - 207.241.229.51 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 511
+2017-04-08 22:49:05 118.67.248.120 GET /images/portfolio/img9.jpg - 80 - 207.241.229.51 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 508
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-08 23:18:09
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-08 23:18:09 118.67.248.120 GET /bathroom.html - 80 - 163.172.66.111 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 1190
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 00:25:03
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 00:25:02 118.67.248.120 GET /assets/css/bootstrap.min.css - 80 - 40.77.167.94 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 1685
+2017-04-09 00:25:04 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 40.77.167.94 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 368
+2017-04-09 00:25:04 118.67.248.120 GET /assets/js/custom.js - 80 - 40.77.167.94 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 269
+2017-04-09 00:34:33 118.67.248.120 GET /robots.txt - 80 - 207.241.231.147 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 507
+2017-04-09 00:34:38 118.67.248.120 GET /images/portfolio/img10.jpg - 80 - 207.241.231.147 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 505
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 01:36:12
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 01:36:11 118.67.248.120 GET /robots.txt - 80 - 207.241.231.143 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 676
+2017-04-09 01:36:21 118.67.248.120 GET /images/portfolio/img13.jpg - 80 - 207.241.231.143 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 538
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 02:05:46
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 02:05:45 118.67.248.120 GET /robots.txt - 80 - 207.241.229.213 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 682
+2017-04-09 02:05:53 118.67.248.120 GET /images/portfolio/img14.jpg - 80 - 207.241.229.213 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 517
+2017-04-09 02:08:23 118.67.248.120 GET /robots.txt - 80 - 52.36.218.238 Mozilla/5.0+(compatible;+houzzbot;++http://www.houzz.com/) 404 0 2 542
+2017-04-09 02:08:24 118.67.248.120 GET / - 80 - 52.36.218.238 Mozilla/5.0+(compatible;+houzzbot;++http://www.houzz.com/) 200 0 0 1032
+2017-04-09 02:15:13 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 157.55.39.191 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 872
+2017-04-09 02:21:21 118.67.248.120 GET /robots.txt - 80 - 141.8.142.26 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 404 0 2 374
+2017-04-09 02:21:26 118.67.248.120 GET /images/interior006s.jpg - 80 - 141.8.142.26 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 304 0 0 224
+2017-04-09 02:36:27 118.67.248.120 GET /assets/images/portfolio/img10.jpg - 80 - 95.108.179.21 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 200 0 0 3310
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 03:11:16
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 03:11:15 118.67.248.120 GET /images/img5659453.jpg - 80 - 120.62.4.150 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:52.0)+Gecko/20100101+Firefox/52.0 200 0 1236 148959
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 04:59:22
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 04:59:21 118.67.248.120 GET /portfolio.html - 80 - 207.241.229.51 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 647
+2017-04-09 05:02:09 118.67.248.120 GET /robots.txt - 80 - 46.229.164.101 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) 404 0 2 526
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 05:45:53
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 05:45:53 118.67.248.120 GET /images/portfolio/img15.jpg - 80 - 207.241.231.147 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 675
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 07:27:42
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 07:27:42 118.67.248.120 GET /images/img6073656.jpg - 80 - 83.110.19.245 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 200 0 0 970
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 08:17:07
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 08:17:07 118.67.248.120 GET /images/portfolio/img12.jpg - 80 - 207.241.229.213 Mozilla/5.0+(compatible;+archive.org_bot++http://www.archive.org/details/archive.org_bot) 404 0 2 700
+2017-04-09 08:19:25 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 180.76.15.5 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0 218
+2017-04-09 08:20:03 118.67.248.120 GET /images/img5794343.jpg - 80 - 141.8.132.43 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 304 0 0 293
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 08:46:55
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 08:46:54 118.67.248.120 GET /livingroom.html - 80 - 157.55.39.108 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 200 0 0 1450
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 09:06:37
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 09:06:36 118.67.248.120 GET /robots.txt - 80 - 77.75.78.161 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 324
+2017-04-09 09:06:38 118.67.248.120 GET /kitchen.html - 80 - 77.75.78.161 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 200 0 0 700
+2017-04-09 09:12:10 118.67.248.120 GET /robots.txt - 80 - 66.249.69.131 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 404 0 2 466
+2017-04-09 09:12:11 118.67.248.120 GET /assets/css/style.css - 80 - 66.249.69.190 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 720
+2017-04-09 09:12:12 118.67.248.120 GET /assets/css/bootstrap.min.css - 80 - 66.249.69.190 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 781
+2017-04-09 09:12:12 118.67.248.120 GET /assets/css/camera.css - 80 - 66.249.69.190 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 289
+2017-04-09 09:12:13 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 66.249.69.131 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 482
+2017-04-09 09:12:13 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 66.249.69.131 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 247
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 09:47:45
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 09:47:44 118.67.248.120 GET /robots.txt - 80 - 77.75.78.164 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 485
+2017-04-09 09:47:47 118.67.248.120 GET /aboutus.html - 80 - 77.75.78.164 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 200 0 0 767
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 11:36:43
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 11:36:42 118.67.248.120 GET /robots.txt - 80 - 77.75.78.164 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 500
+2017-04-09 11:36:45 118.67.248.120 GET /assets/images/news2.jpg - 80 - 77.75.78.164 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 304 0 0 248
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 13:36:26
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 13:36:26 118.67.248.120 GET /robots.txt - 80 - 77.75.77.119 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 532
+2017-04-09 13:36:29 118.67.248.120 GET /services.html - 80 - 77.75.77.119 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 304 0 0 181
+2017-04-09 13:49:27 118.67.248.120 GET / - 80 - 46.105.31.30 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 200 0 0 712
+2017-04-09 14:04:09 118.67.248.120 GET /robots.txt - 80 - 77.75.78.164 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 337
+2017-04-09 14:04:12 118.67.248.120 GET /projects.html - 80 - 77.75.78.164 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 304 0 0 193
+2017-04-09 14:19:43 118.67.248.120 HEAD / - 80 - 65.36.241.48 InternetSeer.com 200 0 0 241
+2017-04-09 14:32:38 118.67.248.120 GET /images/nav14728280i.gif - 80 - 66.249.69.190 Googlebot-Image/1.0 304 0 0 317
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 15:34:09
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 15:34:09 118.67.248.120 GET /robots.txt - 80 - 77.75.79.101 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 483
+2017-04-09 15:34:47 118.67.248.120 GET /contactus1.html - 80 - 77.75.79.101 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 304 0 0 176
+2017-04-09 15:47:22 118.67.248.120 GET / - 80 - 213.239.205.118 Mozilla/5.0+(X11;+Linux+x86_64;+rv:24.0)+Gecko/20140205+Firefox/24.0+Iceweasel/24.3.0 200 0 0 1065
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 16:09:02
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 16:09:02 118.67.248.120 GET /robots.txt - 80 - 77.75.79.17 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 515
+2017-04-09 16:09:40 118.67.248.120 GET /images/portfolio/img9.jpg - 80 - 77.75.79.17 Mozilla/5.0+(compatible;+SeznamBot/3.2;++http://napoveda.seznam.cz/en/seznambot-intro/) 404 0 2 367
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-09 16:53:19
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-09 16:53:19 118.67.248.120 GET / - 80 - 51.255.65.29 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 942

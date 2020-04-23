@@ -1,0 +1,46 @@
+*{
+        box-sizing: border-box;
+        font-family:verdana;
+    }
+    body{
+        margin:0;
+        padding:0;
+    }
+    #main{
+        float: left;
+        width:100%;
+        height:100%;
+    }
+    
+    #logo {
+            width: 100%;
+            height: 100px;
+            background: #1F6521;
+            float: left;
+        }
+
+        #logo img {
+
+            margin: 12.5px 0 0 12.5px;
+            width: 75px;
+            height: 75px;
+            float: left;
+            padding-right: 12.5px;
+        }
+
+        #logo h1 {
+            color: white;
+
+        }
+        #divlogobox{
+            float:left;
+            width:70%;
+            height:100px;
+        }
+        
+        #divlogoboxright{
+            float:left;
+            width:30%;
+            height:100px;
+            background: yellow;
+        }

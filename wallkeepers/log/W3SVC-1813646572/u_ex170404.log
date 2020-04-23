@@ -1,0 +1,85 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 06:49:03
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 06:49:03 118.67.248.120 GET /robots.txt - 80 - 66.249.79.77 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 404 0 2 1447
+2017-04-04 06:51:17 118.67.248.120 GET / - 80 - 66.249.79.72 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 1177
+2017-04-04 06:51:28 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 66.249.79.77 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 718
+2017-04-04 06:51:53 118.67.248.120 GET /assets/js/custom.js - 80 - 66.249.79.72 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 356
+2017-04-04 06:52:05 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 66.249.79.82 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 669
+2017-04-04 06:52:09 118.67.248.120 GET /assets/js/camera.min.js - 80 - 66.249.79.77 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 633
+2017-04-04 06:53:15 118.67.248.120 GET /images/img5794343.jpg - 80 - 122.15.129.17 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko 200 0 0 2012
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 07:52:57
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 07:52:56 118.67.248.120 GET /images/img5794343.jpg - 80 - 42.111.68.170 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.110+Safari/537.36 200 0 64 1433
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 11:01:17
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 11:01:17 118.67.248.120 GET /robots.txt - 80 - 5.255.253.31 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 404 0 2 1280
+2017-04-04 11:01:21 118.67.248.120 GET / - 80 - 141.8.142.49 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 1547
+2017-04-04 11:01:23 118.67.248.120 GET /about.html - 80 - 141.8.142.48 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 393
+2017-04-04 11:06:56 118.67.248.120 GET /images/img6501203.jpg - 80 - 163.172.64.184 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 921
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 11:31:00
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 11:30:59 118.67.248.120 GET /assets/js/fancybox/jquery.fancybox.pack.js - 80 - 180.76.15.141 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0 567
+2017-04-04 11:42:26 118.67.248.120 GET /robots.txt - 80 - 66.249.79.132 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 404 0 2 414
+2017-04-04 11:42:27 118.67.248.120 GET / - 80 - 66.249.79.128 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 848
+2017-04-04 11:42:35 118.67.248.120 GET /assets/css/bootstrap-theme.css - 80 - 66.249.79.189 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 477
+2017-04-04 11:42:36 118.67.248.120 GET /assets/css/style.css - 80 - 66.249.79.128 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 462
+2017-04-04 11:42:37 118.67.248.120 GET /assets/css/bootstrap.min.css - 80 - 66.249.79.189 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 1169
+2017-04-04 11:42:38 118.67.248.120 GET /assets/css/camera.css - 80 - 66.249.79.128 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 241
+2017-04-04 11:42:39 118.67.248.120 GET /assets/css/font-awesome.min.css - 80 - 66.249.79.189 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0 635
+2017-04-04 11:52:58 118.67.248.120 GET /images/img6073656.jpg - 80 - 183.82.210.32 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+10_1_1+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+GSA/15.0.122066290+Mobile/14B100+Safari/600.1.4 200 0 0 232
+2017-04-04 12:04:19 118.67.248.120 GET / - 80 - 180.76.15.154 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0 288
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 12:25:19
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 12:25:19 118.67.248.120 GET / - 80 - 46.105.109.115 8LEGS 200 0 0 853
+2017-04-04 12:37:39 118.67.248.120 GET / - 80 - 180.76.15.17 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0 304
+2017-04-04 12:45:52 118.67.248.120 GET /robots.txt - 80 - 93.158.152.203 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 404 0 2 383
+2017-04-04 12:45:55 118.67.248.120 GET /images/img6073656.jpg - 80 - 93.158.152.203 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 200 0 0 595
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 13:40:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 13:40:46 118.67.248.120 GET / - 80 - 46.105.31.30 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 200 0 0 924
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 14:48:40
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 14:48:39 118.67.248.120 GET /images/img6073656.jpg - 80 - 86.97.141.33 com.google.GoogleMobile/24.1.0+iPad/9.3.5+hw/iPad3_1 200 0 0 1025
+2017-04-04 14:55:53 118.67.248.120 GET /images/shape1525687.gif - 80 - 95.108.213.32 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 304 0 0 250
+2017-04-04 15:06:29 118.67.248.120 GET /contact.html - 80 - 95.108.179.8 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 1291
+2017-04-04 15:06:40 118.67.248.120 GET /homeecraft-brochure-2016.pdf - 80 - 5.255.253.31 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 8016
+2017-04-04 15:06:42 118.67.248.120 GET /contactus.html - 80 - 178.154.189.14 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 641
+2017-04-04 15:06:48 118.67.248.120 GET /aboutus.html - 80 - 37.9.113.46 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 3033
+2017-04-04 15:06:54 118.67.248.120 GET /images/img6073656.jpg - 80 - 108.171.128.163 Mozilla/5.0+(Windows+NT+6.1;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 200 0 0 813
+2017-04-04 15:20:54 118.67.248.120 GET /assets/images/portfolio/img15.jpg - 80 - 178.154.200.64 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 404 0 2 415
+2017-04-04 15:22:00 118.67.248.120 GET /images/img5794343.jpg - 80 - 108.171.128.163 Mozilla/5.0+(Windows+NT+6.1;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 200 0 0 808
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 15:37:26
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 15:37:26 118.67.248.120 GET /assets/images/portfolio/img10.jpg - 80 - 178.154.189.16 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) 200 0 0 10667
+2017-04-04 15:37:29 118.67.248.120 GET /assets/images/portfolio/img10.jpg - 80 - 141.8.142.86 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0 2035
+2017-04-04 15:38:09 118.67.248.120 GET /images/img6073656.jpg - 80 - 121.241.234.66 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 200 0 0 698
+2017-04-04 15:40:45 118.67.248.120 GET /sidebar-right.html - 80 - 51.255.65.52 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 200 0 0 546
+2017-04-04 15:41:13 118.67.248.120 GET /robots.txt - 80 - 151.80.39.22 Mozilla/5.0+(compatible;+AhrefsBot/5.2;++http://ahrefs.com/robot/) 404 0 2 309
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 16:25:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 16:25:10 118.67.248.120 GET / - 80 - 65.36.241.48 InternetSeer.com 200 0 64 680
+2017-04-04 16:25:40 118.67.248.120 GET / - 80 - 65.36.241.48 InternetSeer.com 200 0 64 257
+2017-04-04 16:25:40 118.67.248.120 GET / - 80 - 65.36.241.48 InternetSeer.com 200 0 64 257
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-04 17:09:01
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-04-04 17:09:00 118.67.248.120 GET / - 80 - 123.125.71.47 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 304 0 0 680
