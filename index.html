@@ -23,6 +23,11 @@
             src:url(fonts/Cinzel/Cinzel-Regular.ttf);
             font-family:cinzelfont;
         }
+        
+        @font-face{
+            src:url(fonts/Quicksand-Light.ttf);
+            font-family:quicksand;
+        }
         #brandheader{
             float:left;
             margin:0;
@@ -67,10 +72,13 @@
         #home{
             width:100%;
             float:left;
+            background-image: linear-gradient(to right, lightblue , yellow);
+            
         }
         #about{
             width:100%;
             float:left;
+            background: white;
         }
         #portfolio{
             width:100%;
@@ -88,6 +96,7 @@
             border-bottom: 1px solid black;
             font-family: verdana;
             padding-bottom: 1%;
+            color:black;
         }
         .container h3{
             font-family:cinzelfont;
@@ -95,12 +104,15 @@
             padding-left: 5%;
             float:left;
            }
-        
+        .container h2{
+            font-family:quicksand;
+        }
         .container p{
             padding-top:1%;
             padding-left: 5%;
             padding-right: 5%;
             text-align: justify;
+            font-family: quicksand;
         }
         .container h4{
             font-family:verdana;
@@ -121,7 +133,7 @@
         }
         #contact{
             
-            background: black;
+            background: #3A6EE8;
             color:white;
         }
         
@@ -145,10 +157,10 @@
         }
         
         input{
-            
+            border-collapse: collapse;
             margin-left: 5%;
             font-size:20px;
-            background: blue;
+            background:#3A6EE8;
             color:white;
             border-radius:70px;
         }
