@@ -1,0 +1,361 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web developer in India">
+    <meta name="author" content="Shailesh Bhat">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Shailesh Bhat Web Developer in India</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+        #main{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+            float:left;
+        }
+        @font-face{
+            src:url(fonts/Cinzel/Cinzel-Regular.ttf);
+            font-family:cinzelfont;
+        }
+        
+        @font-face{
+            src:url(fonts/Quicksand-Light.ttf);
+            font-family:quicksand;
+        }
+        #brandheader{
+            float:left;
+            margin:0;
+            padding:0;
+            width:100%;
+            height:50px;
+           
+            border-top:1px solid black;
+            border-bottom: 1px solid black;
+            
+        }
+        #brandheader h1{
+            font-family:cinzelfont;
+            margin:0;
+            padding-left: 5%;
+            float:left;
+        }
+        #brandheader h3{
+            font-family:cinzelfont;
+            margin:0;
+            padding-left: 5%;
+            padding-top: 0.5%;
+            float:left;
+            
+        }
+        #brandheader h3 a{
+            text-decoration: none;
+        }
+        #brandheader h2{
+            font-family:cinzelfont;
+            margin:0;
+            
+            padding-top: 0.5%;
+            padding-right: 5%;
+            float:right;
+        }
+        
+        #content{
+            width:100%;
+            float:left;
+        }
+        #home{
+            width:100%;
+            float:left;
+            background-image: linear-gradient(to right, lightblue , yellow);
+            
+        }
+        #about{
+            width:100%;
+            float:left;
+            background: white;
+        }
+        #portfolio{
+            width:100%;
+            float:left;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        #inspiration{
+            width:100%;
+            float:left;
+        }
+        #contact{
+            width:100%;
+            float:left;
+        }
+        
+        
+        .container{
+            
+            background: lightgrey;
+            border-bottom: 1px solid black;
+            font-family: verdana;
+            padding-bottom: 1%;
+            color:black;
+        }
+        .container h3{
+            font-family:cinzelfont;
+            margin:0;
+            padding-top: 1%;
+            padding-left: 5%;
+            float:left;
+           }
+        .container h2{
+            font-family:quicksand;
+        }
+        .container p{
+            padding-top:2%;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: justify;
+            font-family: quicksand;
+        }
+        .container h4{
+            font-family:quicksand;
+            margin:0;
+            padding-left: 5%;
+            float:left;
+           }
+        
+        #home h2 a{
+            
+            text-decoration: none;
+            
+            padding-left: 5%;
+            padding-right: 5%;
+            color:red;
+            
+            
+        }
+        #skills{
+            float:left;
+            background:lightgrey;
+            
+        }
+        #skillbox{
+            float: left;
+            margin-left: 5%;
+        }
+        
+        
+        #skillbox img{
+            
+            width:5%;
+            height:7%;
+        }
+        #contact{
+            
+            background: #3A6EE8;
+            color:white;
+        }
+        
+       #contact h2 a{
+            
+            text-decoration: none;
+            padding-left: 5%;
+            padding-right: 5%;
+            color:aquamarine;
+            
+        }
+        #contact p{
+             padding-top:3%;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: justify;
+        }
+        
+        #about p img{
+            float:left;
+            padding-right:10px;
+            
+        }
+        
+        input{
+            margin-top: 2%;
+            border-collapse: collapse;
+            margin-left: 5%;
+            font-size:20px;
+            background:#3A6EE8;
+            color:white;
+            border-radius:70px;
+        }
+        video{
+            float:left;
+            padding-top: 1%;
+            padding-left: 5%;
+        }
+        
+        
+        
+        @media only screen and (max-width:600px)
+        {
+            #brandheader{
+                
+         width:100%;
+                
+                float:left;
+                
+            }
+            #brandheader h1{
+                width:80%;
+                float:left;
+                
+            }
+            #brandheader h3{
+                width:100%;
+                float:left;
+                display: none;
+            }
+            #brandheader h2{
+                width:20%;
+                float:left;
+            }
+            #home h2 a{
+                font-size:15px;
+            }
+            #home h2{
+                text-align: center;
+                padding-left:1%;
+            }
+            #skillbox{
+                width:90%;
+                height:100px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            #skillbox img{
+            
+            width:50%;
+            height:90%;
+            padding-bottom: 5%;
+        }
+            #contact h2{
+                font-size:4vw;
+            }
+            #about{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+             #about p{
+            float:right;
+                width:100%;
+            }
+            input{
+                margin-left: 30%;
+            }
+            video{
+                width:100%;
+                padding-right:5%;
+            }
+            
+        }
+    </style>
+</head>
+    <body>
+    <div id="main">
+        <div id="brandheader">
+        <h1>Shailesh Bhat</h1>
+            <h3><a href="#home">Home</a></h3>
+            <h3><a href="#about">About</a></h3>
+            <h3><a href="#portfolio">Portfolio</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
+            <h2>=</h2>
+        </div>
+        <div id="content">
+        <div class="container" id="home">
+            <h3>Home</h3>
+            
+            <p>
+                <form action="Shailesh_Bhat_VisualCV_Resume.pdf"><input type="submit" value="DOWNLOAD CV" /></form>
+                <h2><a href="http://monthlyfair.duoservers.com" target="_blank">Click here to REGISTER WEBSITE</a></h2>
+            <h2><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">Click here to START FREE WEB HOSTING BUSINESS</a></h2>
+            </p>
+            </div>
+            <div class="container" id="about">
+                <h3>About</h3>
+                <p><img src="img/shailesh.jpg" width="200px" height="200px" />
+                Hi, my name is <strong>Shailesh Manjunath Bhat</strong>. A graduate in <strong>Bachelor of Science in Information Technology</strong> from Mumbai University. Living in Dombivili, Maharashtra, India, <strong>Earth, Rodinia</strong>. Born on 18th February 1989, i am 31 years young now.
+                
+                I have learnt <strong>HTML5, CSS3, Javascript, JQuery, PHP & MySQL</strong> from Seed Infotech, Thane; from <strong>November 2019 to present.</strong>
+                Before 2019, from <strong>June 2011 to Oct 2019 i was working in E-Commerce Industry</strong>. Starting from June 2011 i worked for <strong>Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd.</strong> Yeah! i know, its almost 7 years.</p>
+                
+                <h3>My Inspiration</h3><p><h4><a href="http://www.adhamdannaway.com/" target="_blank">adhamdannaway</a></h4><h4><a href="https://caferati.me/" target="_blank">Rafael Caferati</a></h4>
+                <h4><a href="https://andrewborstein.com/" target="_blank">andrewborstein</a></h4></p>
+            </div>
+        
+        <div class="container" id="skills">
+            <h3>Skills</h3><br><br>
+            <div id="skillbox">
+            <img src="img/html5.png" />
+            <img src="img/css.png" />
+            <img src="img/javascript.png" />
+            <img src="img/jquery.png" />
+            <img src="img/php.png" />
+            <img src="img/mysql.png" />
+            
+            </div>
+            
+        </div>
+            <div class="container" id="portfolio">
+            <h3>Portfolio</h3>
+                <p>
+                <h4>(Tea manufacturer company, Badlapur. <a href="http://www.vedantcommodities.com" target="_blank">www.vedantcommodities.com</a>)</h4>
+                <h4>(Interior Designer, Dombivili. <a href="wallkeepers/" target="_blank">www.wallkeepers.in</a>)</h4>
+                <h4>(Chirantan Sanmitra Trust, Mulund. <a href="chirantan/" target="_blank">Chirantan Sanmitra Trust</a>)</h4>
+                <h4>(Alliance Wallpaper, Dombivili. <a href="alliance/" target="_blank">Alliance Wallpaper</a>)</h4>
+                <h4>(Deco Coat Pvt Ltd, Dombivili. <a href="http://www.decocoat.in" target="_blank">www.decocoat.in</a>)</h4>
+                </p>
+        
+        
+        
+            </div>
+        
+            <div class="container" id="contact">
+            <h3>Contact</h3>
+                <p>Address: A/7402, Adwait Chs, Star colony, Manpada road, Dombivili East, Thane, Maharashtra, India-421204.
+                <h2 id="whatsapp"><a href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website." >Click here Whatsapp 9920070452</a></h2>
+                <h2><a href="http://www.facebook.com/amshailesh" target="_blank">Facebook</a></h2>
+                <h2><a href="http://www.instagram.com/web_shaileshbhat" target="_blank">Instagram</a></h2>
+                <h2><a href="https://www.linkedin.com/in/amshailesh/" target="_blank">LinkedIn</a></h2>
+                <h2><a href="https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw" target="_blank">YouTube</a></h2>
+                <h2><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">START FREE WEB HOSTING BUSINESS</a></h2>
+                <!-- Default Statcounter code for Amshailesh.github.io
+http://amshailesh.github.io -->
+<script type="text/javascript">
+var sc_project=12255793; 
+var sc_invisible=1; 
+var sc_security="d7720840"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12255793/0/d7720840/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+<!-- End of Statcounter Code -->
+                </p>
+            </div>
+        
+        </div>
+        
+        
+        </div>
+    </body>
+</html>
