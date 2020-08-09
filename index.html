@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -9,7 +10,11 @@
     <meta name="author" content="Shailesh Bhat">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link href="carousel.css" rel="stylesheet">
     <style>
+        
+        
         * {
             margin: 0;
             padding: 0;
@@ -23,6 +28,24 @@
             height: 100%;
             float: left;
         }
+        
+        
+        
+        
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
         @font-face {
             src: url(fonts/Cinzel/Cinzel-Regular.ttf);
@@ -434,161 +457,177 @@
         }
 
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
     <script src="carousel.js"></script>
 	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f05c4b91bbdc90012dbcf4e&product=inline-share-buttons' async='async'></script>
 </head>
 
 <body>
     <div id="main1">
-	
-        <div class="container-fluid">
+        <div id="" class="container-fluid">
             <div class="row">
+                
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand text-primary" href="#">Shailesh Bhat PHP Developer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-                <div id="menubar" class="col-12 col-md-12 col-lg-12 col-xl-12">
-                    <img src="logo.png" width="40px" height="40px" align="left" style="margin:0.1% 0 0 0;" />
-                    <h5>
-                        <ul>
-                            <li>SHAILESH BHAT</li><a href="#menubar">
-                                <li>HOME</li>
-                            </a><a href="#about">
-                                <li>ABOUT US</li>
-                            </a><a href="#portfolio">
-                                <li>PORTFOLIO</li>
-                            </a><a href="#contact">
-                                <li>CONTACT US</li>
-                            </a><input type="button" class="bg-primary btn" value="Login" data-target="#exampleModal" data-toggle="modal" />
-                        </ul>
-                    </h5>
-                </div>
-                <div id="banner" class="col-12 col-md-12 col-lg-12 col-xl-12">
-
-                </div>
-            </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#services">Basic Webite Development</a>
+          <a class="dropdown-item" href="#services">E-Commerce Website Development</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#services">Amazon Marketplace Listing</a>
         </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled text-danger" href="#" tabindex="-1" aria-disabled="true">Call me to hire me +91-9920070452</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+                </div>
+                
+                
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/3.jpg" width="100%" height="100%" style="background:cover;" /> <rect width="100%" height="100%" fill="#777"/>
         <div class="container">
-            <!-- Button trigger modal -->
+          <div class="carousel-caption text-left text-white">
+            <h1>Basic Website Development</h1>
+            <p>You will get website with latest technogy & security, so that you dont have to worry about hackers & security.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.facebook.com/webshaileshbhat" role="button">Contact Me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg" width="100%" height="100%" style="background:cover;" /><rect width="100%" height="100%" fill="#777"/>
+        <div class="container">
+          <div class="carousel-caption text-dark">
+            <h1>E-Commerce Website Developent</h1>
+            <p>Get Customized E-commerce website developed with Payment gateway integration.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/1a.jpg" width="100%" height="100%" style="background:cover;" /><rect width="100%" height="100%" fill="#777"/>
+        <div class="container">
+          <div class="carousel-caption text-right text-dark">
+            <h1>Amazon Marketplace Listing</h1>
+            <p>Dont have time to list. I will list your products in Amazon with Professional contents & A+ Pages</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.amazon.in/sp?_encoding=UTF8&asin=&isAmazonFulfilled=&isCBA=&marketplaceID=A21TJRUUN4KGV&orderID=&protocol=current&seller=ABR7V09HV85UG&sshmPath=" role="button">Sample Amazon Work</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <h5>Enter Username<input type="text" class="form-control" /></h5>
-                            <h5>Enter Password<input type="text" class="form-control" /></h5>
-                            <h5><input type="button" class="btn btn-success" value="Sign In" /></h5>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
+                
                 </div>
-            </div>
-        </div>
-
-        <div id="products">
-
-            <span id="prev">&lt;</span>
-            <span id="next">&gt;</span>
-            <div id="contents">
-                <img src="" width="95%" height="280px" />
-                <img src="" width="95%" height="280px" class="img2" />
-                <img src="" width="95%" height="280px" class="img2" />
-
-            </div>
-
-            <div id="data">
-                <img src="banner1.jpg" width="95%" height="280px" />
-                <img src="banner2.jpg" width="95%" height="280px" />
-                <img src="banner3.jpg" width="95%" height="280px" />
-                <img src="banner4.jpg" width="95%" height="280px" />
-                <img src="banner5.jpg" width="95%" height="280px" />
-                <img src="banner6.jpg" width="95%" height="280px" />
-                <img src="banner7.jpg" width="95%" height="280px" />
-                <img src="banner8.jpg" width="95%" height="280px" />
-            </div>
-        </div>
-        <div id="cvdownload">
-
-            <form action="ShaileshBhat_InternshalaResume.pdf"><input type="submit" value="DOWNLOAD MY RESUME" /></form>
-
+                
+                
             
-            <h2><a href="http://monthlyfair.duoservers.com" target="_blank">Click here to REGISTER WEBSITE WORDPRESS & E-Commerce Websites</a></h2>
-            <h2><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">Click here to START FREE WEB HOSTING BUSINESS</a></h2>
-            <a href="https://www.resellerspanel.com/domain-names/?a=amshailesh" id="banner_code_link" title=".COM Generic TLD Domain name" target="_blank">
-                <img src="https://www.resellerspanel.com/aff-program/banners/resources/com-universal-domain/525x134/1/1/2/com-universal-domain-525x134-1-01-2.gif" id="banner_code_img" alt=".COM Generic TLD Domain name">
-            </a>
-
-
-        </div>
-        <div id="about">
-            <br>
-            <h3>About</h3><br>
-            <img src="img/shailesh.jpg" width="200px" height="200px" align="left" />
-            <p align="justify">
-                Hi, my name is <strong>Shailesh Manjunath Bhat</strong>. A graduate in <strong>Bachelor of Science in Information Technology</strong> from Mumbai University. Living in Dombivili, Maharashtra, India, <strong>Earth, Rodinia</strong>. Born on 18th February 1989, i am 31 years young now.
-
-                I have learnt <strong>HTML5, CSS3, Javascript, JQuery, PHP & MySQL</strong> from Seed Infotech, Thane; from <strong>November 2019 to present.</strong>
-                Before 2019, from <strong>June 2011 to Oct 2019 i was working in E-Commerce Industry</strong>. Starting from June 2011 i worked for <strong>Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd.</strong> Yeah! i know, its almost 7 years.</p>
-
-            </p>
-        </div>
-
-        <div id="portfolio">
-            <br>
-            <h3>Portfolio</h3><br>
-            <p>
-                <h4>(Deco Coat Pvt Ltd, Dombivili. <a href="http://www.decocoat.in" target="_blank">www.decocoat.in</a>)</h4>
-                <h4>(Interior Designer, Dombivili. <a href="wallkeepers/" target="_blank">www.wallkeepers.in</a>)</h4>
-                <h4>(Ecotech Polymers Pvt Ltd. <a href="http://www.echotechpolymers.net" target="_blank">www.echotechpolymers.net</a>)</h4>
-                <h4>(Tea manufacturer company, Badlapur. <a href="http://www.vedantcommodities.com" target="_blank">www.vedantcommodities.com</a>)</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-white text-center">
+                <h1>
+                        
+                        <a class="btn btn-lg btn-primary" href="https://amshailesh.github.io/ShaileshBhat_InternshalaResume.pdf" role="button">Download my Resume</a>
+                        </h1>
+                    
+                
+                </div>
+                    
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-white text-justify">
+                <h1>About Me</h1>
+                    <p>Hi, my name is Shailesh Manjunath Bhat. A graduate in Bachelor of Science in Information Technology from Mumbai University. Living in Dombivili, Maharashtra, India, Earth, Rodinia. Born on 18th February 1989, i am 31 years young now. I have learnt HTML5, CSS3, Javascript, JQuery, PHP & MySQL from Seed Infotech, Thane; from November 2019 to present. Before 2019, from June 2011 to Oct 2019 i was working in E-Commerce Industry. Starting from June 2011 i worked for Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd. Yeah! i know, its almost 7 years.</p>
+                
+                </div>
+                    
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-white text-left">
+                <h1>Portfolio</h1>
+                    <p id="portfolio">
+                <h6>(Deco Coat Pvt Ltd, Dombivili. <a href="http://www.decocoat.in" target="_blank">www.decocoat.in</a>)</h6>
+                <h6>(Interior Designer, Dombivili. <a href="wallkeepers/" target="_blank">www.wallkeepers.in</a>)</h6>
+                <h6>(Ecotech Polymers Pvt Ltd. <a href="http://www.echotechpolymers.net" target="_blank">www.echotechpolymers.net</a>)</h6>
+                <h6>(Tea manufacturer company, Badlapur. <a href="http://www.vedantcommodities.com" target="_blank">www.vedantcommodities.com</a>)</h6>
                  
-                <h4>(Chirantan Sanmitra Trust, Mulund. <a href="chirantan/" target="_blank">Chirantan Sanmitra Trust</a>)</h4>
-                <h4>(Alliance Wallpaper, Dombivili. <a href="alliance/" target="_blank">Alliance Wallpaper</a>)</h4>
+                <h6>(Chirantan Sanmitra Trust, Mulund. <a href="chirantan/" target="_blank">Chirantan Sanmitra Trust</a>)</h6>
+                <h6>(Alliance Wallpaper, Dombivili. <a href="alliance/" target="_blank">Alliance Wallpaper</a>)</h6>
                 
             </p>
+                
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-white text-left">
+                <h1>Services</h1>
+                    <p id="services">
+                <h5>Basic Web development</h5>
+                <h5>E-Commerce Web development</h5>
+                <h5>Amazon Marketplace Listing</h5>
+                
+            </p>
+                
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-white text-left">
+                    <h1>Contact</h1>
+            <h5>Address: A/7402, Adwait Chs, Star colony, Manpada road, Dombivili East, Thane, Maharashtra, India-421204.</h5>
+               <h5> <a href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website.">Click here Whatsapp 9920070452</a></h5>
 
-
-
-        </div>
-
-        <div id="skills">
-            <br>
-            <h3>Skills</h3><br>
-            <div id="skillbox">
-                <img src="img/html5.png" />
-                <img src="img/css.png" />
-                <img src="img/javascript.png" />
-                <img src="img/jquery.png" />
-                <img src="img/php.png" />
-                <img src="img/mysql.png" />
-
+                <h5><a href="http://www.facebook.com/amshailesh" target="_blank">Facebook</a></h5>
+                <h5><a href="http://www.instagram.com/web_shaileshbhat" target="_blank">Instagram</a></h5>
+                <h5><a href="https://www.linkedin.com/in/amshailesh/" target="_blank">LinkedIn</a></h5>
+                <h5><a href="https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw" target="_blank">YouTube</a></h5>
+                <h5><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">START FREE WEB HOSTING BUSINESS</a></h5>
+                
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-white text-left">
+                    <p></p>
+                
+                </div>
+                </div>
+            
             </div>
-
-
+            
+        
         </div>
-
-        <div id="contact">
-            <br>
-            <h3>Contact</h3><br>
-            <p>Address: A/7402, Adwait Chs, Star colony, Manpada road, Dombivili East, Thane, Maharashtra, India-421204.<br><br>
-                <h2 id="whatsapp"><a href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website.">Click here Whatsapp 9920070452</a></h2>
-
-                <h2><a href="http://www.facebook.com/amshailesh" target="_blank">Facebook</a></h2>
-                <h2><a href="http://www.instagram.com/web_shaileshbhat" target="_blank">Instagram</a></h2>
-                <h2><a href="https://www.linkedin.com/in/amshailesh/" target="_blank">LinkedIn</a></h2>
-                <h2><a href="https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw" target="_blank">YouTube</a></h2>
-                <h2><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">START FREE WEB HOSTING BUSINESS</a></h2>
-                <!-- Default Statcounter code for Amshailesh.github.io
+	
+              <!-- Default Statcounter code for Amshailesh.github.io
 http://amshailesh.github.io -->
                 <script type="text/javascript">
                     var sc_project = 12255793;
@@ -606,12 +645,12 @@ StatCounter"></a></div>
             </p>
         </div>
 
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
 
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 </body>
 

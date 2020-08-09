@@ -1,0 +1,618 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shailesh Bhat Web Developer from India</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <meta name="description" content="PHP Web developer in India">
+    <meta name="author" content="Shailesh Bhat">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main1 {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+
+        @font-face {
+            src: url(fonts/Cinzel/Cinzel-Regular.ttf);
+            font-family: cinzelfont;
+        }
+
+        @font-face {
+            src: url(fonts/Quicksand-Light.ttf);
+            font-family: quicksand;
+        }
+
+        #menubar {
+            width: 100%;
+            height: 50px;
+            background: #34ebc0;
+            float: left;
+        }
+
+        #menubar h5 {
+            margin: 0.5% 0 0 0;
+        }
+
+        #menubar ul li {
+            display: inline-block;
+            margin: 0 0 0 2%;
+        }
+
+        #menubar input {
+            float: right;
+            margin: 0 5% 0 0;
+            padding: 0.1%;
+            border-radius: 7px 7px 7px 7px;
+            font-size: 20px;
+            color: white;
+        }
+
+        #banner {
+            width: 100%;
+            height: 510px;
+
+            float: left;
+            -webkit-animation: banners 12s infinite;
+        }
+
+        @-webkit-keyframes banners {
+
+            0% {
+                background: url(banner1.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            33% {
+                background: url(banner1.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            34% {
+                background: url(banner2.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            66% {
+                background: url(banner2.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            67% {
+                background: url(banner3.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            100% {
+                background: url(banner3.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        #products {
+
+            float: left;
+            width: 100%;
+            height: 300px;
+            background: grey;
+            color: white;
+            font-size: 50px;
+
+        }
+
+        #next {
+            position: absolute;
+            margin: 5% 0 0 95%;
+            background: black;
+        }
+
+        #prev {
+            position: absolute;
+            background: black;
+            margin: 5% 0 0 3%;
+        }
+
+        #contents {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            float: left;
+        }
+
+        #data {
+
+            display: none;
+            float: left;
+        }
+
+        #contents img {
+            margin: 2% 2% 2% 2%;
+        }
+
+        #cvdownload {
+
+            float: left;
+            width: 100%;
+            height: 500px;
+            background-image: linear-gradient(to left, yellow, lightgreen);
+        }
+
+        #cvdownload input {
+
+            margin: 5% 0 0 38%;
+            border-radius: 7px;
+            background: blue;
+            color: white;
+            font-size: 35px;
+            border: 2px red yellow;
+        }
+
+        #cvdownload h2 {
+            border-top: 1px solid white;
+            margin: 1% 0 0 5%;
+            color: red;
+
+        }
+
+        #cvdownload h2 a {
+
+            color: red;
+
+
+        }
+
+        #cvdownload img {
+
+            margin: 0 0 0 36%;
+
+
+
+        }
+
+        #about {
+
+            float: left;
+            width: 100%;
+            height: 300px;
+            font-family: quicksand;
+            border: 1px solid black;
+        }
+
+        #about h3 {
+
+            margin: 0 0 0 5%;
+
+        }
+
+        #about img {
+
+            margin: 0 0 0 5%;
+            padding: 0 0 0 0;
+
+        }
+
+        #about p {
+
+            margin: 2% 5% 0 5%;
+            padding: 0 0 0 5%;
+
+        }
+
+        #portfolio {
+
+            float: left;
+            width: 100%;
+            height: auto;
+            background: lightgrey;
+            font-family: quicksand;
+        }
+
+        #portfolio h3,
+        h4 {
+
+            margin: 0 0 0 5%;
+        }
+
+        #skills {
+
+            float: left;
+            width: 100%;
+            height: 250px;
+            background: lightgrey;
+            border: 1px solid black;
+            font-family: quicksand;
+        }
+
+        #skills h3 {
+
+            margin: 0 0 0 5%;
+        }
+
+        #skillbox img {
+
+            margin: 0 0 0 5%;
+            width: 60px;
+            height: 60px;
+        }
+
+        #contact {
+
+            float: left;
+            width: 100%;
+            height: 500px;
+            background: #3A6EE8;
+            border: 1px solid black;
+            font-family: quicksand;
+            color: white;
+        }
+
+        #contact a {
+
+
+            color: white;
+        }
+
+        #contact a {
+
+
+            color: white;
+        }
+
+        #contact p,
+        h3,
+        h2 {
+
+            margin: 0 0 0 5%;
+        }
+		
+		.icon-bar {
+  position:fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+		
+
+        @media only screen and (max-width:600px) {
+            #menubar {
+                width: 100%;
+                height: auto;
+            }
+
+            #menubar ul {
+                width: 100%;
+            }
+
+            #menubar ul li {
+                width: 100%;
+                border-bottom: 1px solid black;
+
+            }
+
+            #menubar input {
+                float: left;
+                width: 100%;
+                border-radius: 0;
+
+            }
+
+            #banner {
+                display: none;
+            }
+
+            #contents {
+                display: grid;
+                grid-template-columns: 1fr;
+                float: left;
+                height: auto;
+            }
+
+            #contents .img2 {
+
+                display: none;
+            }
+
+            #prev {
+                background: yellow;
+                color: black;
+                margin: 18% 0 0 2%;
+                width: 10%;
+            }
+
+            #next {
+                background: yellow;
+                color: black;
+                margin: 18% 0 0 87%;
+                width: 10%;
+            }
+
+            #cvdownload {
+
+                width: 100%;
+                height: auto;
+
+            }
+
+            #cvdownload input {
+
+                font-size: 25px;
+
+                margin: 5% 0 0 5%;
+
+            }
+
+            #cvdownload img {
+
+                display: none;
+
+            }
+
+            #about {
+                width: 100%;
+                height: auto;
+            }
+
+            #portfolio {
+                width: 100%;
+                height: auto;
+            }
+
+            #skills {
+                width: 100%;
+                height: auto;
+
+            }
+
+            #skillbox {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding-bottom: 5%;
+            }
+
+            #contact {
+                width: 100%;
+                height: auto;
+            }
+
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="carousel.js"></script>
+	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f05c4b91bbdc90012dbcf4e&product=inline-share-buttons' async='async'></script>
+</head>
+
+<body>
+    <div id="main1">
+	
+        <div class="container-fluid">
+            <div class="row">
+
+                <div id="menubar" class="col-12 col-md-12 col-lg-12 col-xl-12">
+                    <img src="logo.png" width="40px" height="40px" align="left" style="margin:0.1% 0 0 0;" />
+                    <h5>
+                        <ul>
+                            <li>SHAILESH BHAT</li><a href="#menubar">
+                                <li>HOME</li>
+                            </a><a href="#about">
+                                <li>ABOUT US</li>
+                            </a><a href="#portfolio">
+                                <li>PORTFOLIO</li>
+                            </a><a href="#contact">
+                                <li>CONTACT US</li>
+                            </a><input type="button" class="bg-primary btn" value="Login" data-target="#exampleModal" data-toggle="modal" />
+                        </ul>
+                    </h5>
+                </div>
+                <div id="banner" class="col-12 col-md-12 col-lg-12 col-xl-12">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Enter Username<input type="text" class="form-control" /></h5>
+                            <h5>Enter Password<input type="text" class="form-control" /></h5>
+                            <h5><input type="button" class="btn btn-success" value="Sign In" /></h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="products">
+
+            <span id="prev">&lt;</span>
+            <span id="next">&gt;</span>
+            <div id="contents">
+                <img src="" width="95%" height="280px" />
+                <img src="" width="95%" height="280px" class="img2" />
+                <img src="" width="95%" height="280px" class="img2" />
+
+            </div>
+
+            <div id="data">
+                <img src="banner1.jpg" width="95%" height="280px" />
+                <img src="banner2.jpg" width="95%" height="280px" />
+                <img src="banner3.jpg" width="95%" height="280px" />
+                <img src="banner4.jpg" width="95%" height="280px" />
+                <img src="banner5.jpg" width="95%" height="280px" />
+                <img src="banner6.jpg" width="95%" height="280px" />
+                <img src="banner7.jpg" width="95%" height="280px" />
+                <img src="banner8.jpg" width="95%" height="280px" />
+            </div>
+        </div>
+        <div id="cvdownload">
+
+            <form action="ShaileshBhat_InternshalaResume.pdf"><input type="submit" value="DOWNLOAD MY RESUME" /></form>
+
+            
+            <h2><a href="http://monthlyfair.duoservers.com" target="_blank">Click here to REGISTER WEBSITE WORDPRESS & E-Commerce Websites</a></h2>
+            <h2><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">Click here to START FREE WEB HOSTING BUSINESS</a></h2>
+            <a href="https://www.resellerspanel.com/domain-names/?a=amshailesh" id="banner_code_link" title=".COM Generic TLD Domain name" target="_blank">
+                <img src="https://www.resellerspanel.com/aff-program/banners/resources/com-universal-domain/525x134/1/1/2/com-universal-domain-525x134-1-01-2.gif" id="banner_code_img" alt=".COM Generic TLD Domain name">
+            </a>
+
+
+        </div>
+        <div id="about">
+            <br>
+            <h3>About</h3><br>
+            <img src="img/shailesh.jpg" width="200px" height="200px" align="left" />
+            <p align="justify">
+                Hi, my name is <strong>Shailesh Manjunath Bhat</strong>. A graduate in <strong>Bachelor of Science in Information Technology</strong> from Mumbai University. Living in Dombivili, Maharashtra, India, <strong>Earth, Rodinia</strong>. Born on 18th February 1989, i am 31 years young now.
+
+                I have learnt <strong>HTML5, CSS3, Javascript, JQuery, PHP & MySQL</strong> from Seed Infotech, Thane; from <strong>November 2019 to present.</strong>
+                Before 2019, from <strong>June 2011 to Oct 2019 i was working in E-Commerce Industry</strong>. Starting from June 2011 i worked for <strong>Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd.</strong> Yeah! i know, its almost 7 years.</p>
+
+            </p>
+        </div>
+
+        <div id="portfolio">
+            <br>
+            <h3>Portfolio</h3><br>
+            <p>
+                <h4>(Deco Coat Pvt Ltd, Dombivili. <a href="http://www.decocoat.in" target="_blank">www.decocoat.in</a>)</h4>
+                <h4>(Interior Designer, Dombivili. <a href="wallkeepers/" target="_blank">www.wallkeepers.in</a>)</h4>
+                <h4>(Ecotech Polymers Pvt Ltd. <a href="http://www.echotechpolymers.net" target="_blank">www.echotechpolymers.net</a>)</h4>
+                <h4>(Tea manufacturer company, Badlapur. <a href="http://www.vedantcommodities.com" target="_blank">www.vedantcommodities.com</a>)</h4>
+                 
+                <h4>(Chirantan Sanmitra Trust, Mulund. <a href="chirantan/" target="_blank">Chirantan Sanmitra Trust</a>)</h4>
+                <h4>(Alliance Wallpaper, Dombivili. <a href="alliance/" target="_blank">Alliance Wallpaper</a>)</h4>
+                
+            </p>
+
+
+
+        </div>
+
+        <div id="skills">
+            <br>
+            <h3>Skills</h3><br>
+            <div id="skillbox">
+                <img src="img/html5.png" />
+                <img src="img/css.png" />
+                <img src="img/javascript.png" />
+                <img src="img/jquery.png" />
+                <img src="img/php.png" />
+                <img src="img/mysql.png" />
+
+            </div>
+
+
+        </div>
+
+        <div id="contact">
+            <br>
+            <h3>Contact</h3><br>
+            <p>Address: A/7402, Adwait Chs, Star colony, Manpada road, Dombivili East, Thane, Maharashtra, India-421204.<br><br>
+                <h2 id="whatsapp"><a href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website.">Click here Whatsapp 9920070452</a></h2>
+
+                <h2><a href="http://www.facebook.com/amshailesh" target="_blank">Facebook</a></h2>
+                <h2><a href="http://www.instagram.com/web_shaileshbhat" target="_blank">Instagram</a></h2>
+                <h2><a href="https://www.linkedin.com/in/amshailesh/" target="_blank">LinkedIn</a></h2>
+                <h2><a href="https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw" target="_blank">YouTube</a></h2>
+                <h2><a href="http://www.resellerspanel.com/?a=amshailesh" target="_blank">START FREE WEB HOSTING BUSINESS</a></h2>
+                <!-- Default Statcounter code for Amshailesh.github.io
+http://amshailesh.github.io -->
+                <script type="text/javascript">
+                    var sc_project = 12255793;
+                    var sc_invisible = 1;
+                    var sc_security = "d7720840";
+
+                </script>
+                <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+                <noscript>
+                    <div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12255793/0/d7720840/1/" alt="Web Analytics Made Easy -
+StatCounter"></a></div>
+                </noscript>
+                <!-- End of Statcounter Code -->
+            </p>
+        </div>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
