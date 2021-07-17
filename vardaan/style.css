@@ -1,0 +1,32 @@
+body{
+	background-image: linear-gradient(to right, teal, aqua);
+}
+
+
+
+
+#mainbanner{
+	width:550px;
+	height: 350px;
+	background-image:url(img/images/background1.jpg);
+	background-size: cover;
+}
+
+.dropdown-menu{
+	background: yellowgreen;
+}
+
+
+#aboutmainbanner{
+	width:550px;
+	height: 350px;
+	background-image:url(img/images/whatsapp-image-2021-01-03-at-1.46.09-pm-1-436x327.jpg);
+	background-size: cover;
+}
+
+#aboutmainbanner1{
+	width:550px;
+	height: 350px;
+	background-image:url(img/images/whatsapp-image-2021-01-03-at-1.46.05-pm-1-1024x768.jpg);
+	background-size: cover;
+}
