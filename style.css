@@ -156,10 +156,15 @@ float: left;
 #contact{
   width:auto;
   height: 220px;
-  margin: 0 0 0 6%;
+  margin: 0 0 0 ;
  padding: 0 0 0 0;
 }
 
+.c{
+  width: 70%;
+  height: 50px;
+  margin: 0 0 0 6%;
+}
 
 @media only screen and (max-width: 600px)
 {
