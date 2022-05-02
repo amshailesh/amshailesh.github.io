@@ -18,11 +18,24 @@ body{
 	height:100%;
 }
 
+
 #main{
 	width:100%;
 	height:100%;
 
 	}
+
+
+	#image{
+display: none;
+		width: 100%;
+		height: 200px;
+		
+		background-image: url(ptoo.JPG);
+		background-size: 100% 200px;
+	}
+
+	
 
 #menu{
 	width:100%;
@@ -87,6 +100,10 @@ input{
 
 @media only screen and (max-width: 600px){
 
+#image{
+	display: block;
+}
+
 	#menu{
 		height: auto;
 	}
@@ -114,8 +131,10 @@ input{
 
 </head>
 <body>
+	
 	<div id="main">
-
+		<div id="image"></div>
+		
 		<div id="menu">
 
 			<ul>
