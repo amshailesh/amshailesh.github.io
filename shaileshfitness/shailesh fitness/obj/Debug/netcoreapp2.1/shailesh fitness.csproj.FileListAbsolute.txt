@@ -1,0 +1,20 @@
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\shailesh fitness.deps.json
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\shailesh fitness.runtimeconfig.json
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\shailesh fitness.runtimeconfig.dev.json
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\shailesh fitness.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\bin\Debug\netcoreapp2.1\shailesh fitness.pdb
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.csproj.AssemblyReference.cache
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.AssemblyInfoInputs.cache
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.AssemblyInfo.cs
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.csproj.CoreCompileInputs.cache
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.dll
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.pdb
+C:\Users\amsha\OneDrive\Desktop\test\shailesh fitness\shailesh fitness\obj\Debug\netcoreapp2.1\shailesh fitness.genruntimeconfig.cache
