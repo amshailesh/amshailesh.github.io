@@ -3,8 +3,7 @@
 	font-family: verdana;
 	padding: 0;
 	margin: 0;
-	width: 100%;
-	height: 100%;
+	
 }
 
 #divmainBody{
@@ -89,6 +88,8 @@ header{
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
+          width:100%;
+          height: 100%;
 }
 
 .navmenu li a{
@@ -111,6 +112,8 @@ header{
           align-items: center; /* center text vertically */
   box-shadow: 0-10px 3px rgba(0,0,0,.1) inset;
   transition: all .3s;
+width:100%;
+          height: 100%;
 }
 
 .navmenu li:nth-of-type(2) a{
@@ -180,7 +183,7 @@ header{
 	}
 
 	.navmenu li{
-		display: inline;
+		display: inline-block;
 	}
 
 	.navmenu li a{
@@ -197,7 +200,61 @@ header{
      object-fit: cover;
   }
 
+
+
+
+  #divstudenttable{
+
+  width: 100%;
+  height:auto;
+ 
+  
+  float: left;
+
+  
+  
+  background-image: linear-gradient(to bottom right, lightgoldenrodyellow, green);
+}
+
+#divstudentimage{
+
+  width: 30%;
+  height: 350px;
+  margin-top: 9%;
+  background-image: url("shaileshHDedited.jpg");
+  background-size:cover;
+  background-position: center;
+  border: 2px solid blue;
+  float: left;
+}
+
+#tablebox{
+
+  float: left;
+  width: 70%;
+  height: 350px;
+}
+
+#studentdetails{
+
+width: 70%;
+  height:auto;
+  
+  
+  border: 2px solid red;
+  background-image: linear-gradient(to bottom right, lightgoldenrodyellow, yellow);
+  float:left;
+
+}
+
   @media only screen and (max-width: 600px) {
+
+    #divmainBody,#divmenuFrame,#divmenuLinks{
+
+      width: 100%;
+  height: auto;
+
+    }
   
   ul.navmenu
   {
@@ -216,7 +273,34 @@ height: auto;
   height: auto;
 
   }
+
+  #divstudenttable{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+#divstudentimage{
+width: 100%;
+    height:350px;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  #studentdetails{
+
+width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+  }
 }
+
+
 
 
 	
