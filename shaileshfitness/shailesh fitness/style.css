@@ -95,7 +95,7 @@ header{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px; /* height of links */
+  height: 90px; /* height of links */
   padding: 0 10px;
   color: black;
   text-transform: uppercase;
@@ -157,7 +157,7 @@ header{
   }
 
   .navmenu li a{
-    height: 50px;
+    height: 80px;
   }
 }
 
@@ -168,7 +168,7 @@ header{
 	/* IE9 specific CSS */
 
 	header{
-		overflow:visible;
+		overflow: hidden;
 	}
 	
 	#logoarea{
@@ -188,35 +188,6 @@ header{
 		float: left;
 		display: block;
 	}
-
-
-  #logoarea img{
-
-    width: auto;
-    height: 50px;
-     object-fit: cover;
-  }
-
-  @media only screen and (max-width: 600px) {
-  
-  ul.navmenu
-  {
-
-width: 100%;
-height: auto;
-
-
-  }
-
-
-
-  ul.navmenu li{
-
-    width: 100%;
-  height: auto;
-
-  }
-}
 
 
 	
