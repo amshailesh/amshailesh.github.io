@@ -233,6 +233,8 @@ width:100%;
   float: left;
   width: 70%;
   height: 350px;
+
+
 }
 
 #studentdetails{
@@ -289,7 +291,15 @@ width: 100%;
     
   }
 
+#tablebox{
 
+width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+overflow-x: scroll;
+}
   #studentdetails{
 
 width: 100%;
