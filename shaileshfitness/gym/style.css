@@ -54,6 +54,12 @@ html {
   color: orange;
 }
 
+.carouselExampleCaptions{
+
+  width: 100%;
+  height: 500px;
+}
+
 .carousel-caption{
 
   color:white;
