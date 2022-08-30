@@ -1,134 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Shailesh Bhat, Web Developer in Dombivili, India</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shailesh Bhat, Web Developer in Dombivili, India</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+    <link href="https://bootswatch.com/5/pulse/bootstrap.min.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-	<style>
-	*{
-		padding:0;
-		margin:0;
-		box-sizing: border-box;
-	}
-body{
-	width:100%;
-	height:100%;
-}
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
 
 
-#main{
-	width:100%;
-	height:100%;
-
-	}
-
-
-	
-	
-
-#menu{
-	width:100%;
-	height:100px;
-	background: blue;
-	color: white;
-float: left;
-}
-
-#menu ul li{
-
-	list-style: none;
-
-	margin: 2% 0 0 2%;
-	float: left;
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
-	
-	
-}
-
-a:visited{
-
-	color: white;
-}
-
-#menu a{
-	color: white;
-}
-
-#menu ul li a{
-
-	text-decoration: none;
-}
-
-
-
-#section{
-
-	width: 100%;
-	height: 700px;
-	background: wheat ;
-	font-family: 'Open Sans', sans-serif;
-	padding: 10% 10% 10% 10%;
-	text-align: justify;
-	font-size: 25px;
-}
-
-input{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 25px;
-	border-radius: 25px;
-	padding: 25px;
-	background:blue;
-	color: white;
-}
-
-
-.logo{
-	border:1px solid white;background: white;color:black;
-}
-
-@media only screen and (max-width: 600px){
-
-#image{
-	display: block;
-}
-
-	#menu{
-		height: auto;
-	}
-
-
-
-	#section{
-		height: auto;
-	}
-
-	#menu ul{
-		display: grid;
-		grid-template-columns: 1fr;
-	}
-#menu ul li h2{
-	background: wheat;
-}
-
-input{
-	padding: 0;
-	font-size: 20px;
-}
-
-#clients li a{
-	font-size: 15px;
-}
-
-}
-
-
-
-
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -140,59 +31,233 @@ input{
 
   gtag('config', 'UA-168066924-1');
 </script>
-
-
 </head>
 <body>
-	
-	<div id="main">
-		
-		<div id="menu">
+  
 
-			<ul>
-				
-					<li><h2 class="logo">Shailesh Bhat</h2></li>
-					<li><a href="#">Home</a></li>
-					<li><a target="_blank" href="https://www.secureserver.net?prog_id=581912">Godaddy Transfer</a></li>
-					<li><a target="_blank" href="https://bigrock-in.sjv.io/MXjYrn">Bigrock Transfer</a></li>
-					<li><a target="_blank" href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website.">Contact Us</a></li>
-					<li><a target="_blank" href="http://www.instagram.com/shaileshmbhat">Instagram</a></li>
-					<li><a target="_blank" href="http://www.facebook.com/webshaileshbhat">Facebook</a></li>
-					<li><a target="_blank" href="https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw?sub_confirmation=1">YouTube</a></li>
-					<li><a target="_blank" href="http://monthlyfair.godaddysites.com">Blog</a></li>
-					<li><a target="_blank" href="https://lenovo-in.zlvv.net/c/3156425/616203/9634">Buy Lenovo Laptops</a></li>
-			</ul>
-		</div>
+<!-- nav bar start-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-		<div id="section">
+          <a class="navbar-brand" href="#"><h1 class="m-3 ">Shailesh Bhat</h1></a>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item fs-4">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item fs-4">
+                <a class="nav-link" href="index.html#about">About Me</a>
+              </li>
+              <li class="nav-item dropdown fs-4">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" target="_blank" href="https://www.secureserver.net/?prog_id=581912">Godaddy Domain Registration</a>
+                      <a class="dropdown-item" target="_blank" href="https://bigrock-in.sjv.io/MXjYrn">BigRock Domain Registration</a>
+                      <a class="dropdown-item" target="_blank" href="https://www.secureserver.net/products/cpanel?plid=581912">Web Hosting</a>
+                      <a class="dropdown-item" target="_blank" href="https://www.adsgenerate.com">Social Media Marketing</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" target="_blank" href="https://www.adsgenerate.com">Web Development</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown fs-4">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact Me</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" target="_blank" href="http://www.instagram.com/shaileshmbhat">Instagram</a>
+                      <a class="dropdown-item" target="_blank" href="http://www.facebook.com/webshaileshbhat">Facebook</a>
+                      <a class="dropdown-item" target="_blank" href="https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw?sub_confirmation=1">YouTube</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" target="_blank" href="https://api.whatsapp.com/send?phone=919920070452&text=Githublink-Hi%20Shailesh%20!,%20i%20want%20a%20website.">WhatsApp</a>
+                  </div>
+              </li>
+              
+              <li class="nav-item fs-4">
+                <a class="nav-link" target="_blank" href="https://lenovo-in.zlvv.net/c/3156425/616203/9634">Buy Lenovo</a>
+              </li>
 
-			<p>
-			Hi, my name is Shailesh Manjunath Bhat. A graduate in Bachelor of Science in Information Technology from Mumbai University. Living in Dombivili, Maharashtra, India, Earth, Rodinia. I have learnt HTML5, CSS3, Javascript, JQuery, PHP & MySQL from Seed Infotech, Thane. Before 2019, from June 2011 to Oct 2019 i was working in E-Commerce Industry. Starting from June 2011 i worked for Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd.	<b>Skills: HTML5, CSS3, JQUERY, Javascript, PHP, MySQL</b><br><br>
+              <li class="nav-item fs-4">
+                  <a class="nav-link" target="_blank" href="https://adsgenerate.com/blog">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <!--<input class="form-control me-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+          </div>
+        </div>
+      </nav>
 
-			<form action="https://my.indeed.com/p/shaileshb-fihmprn" target="_blank">
-
-				<input type="submit" value="Download My Resume Here" />
-
-			</form>
-
-			</p>
-<br>
-<h3>Clients</h3>
-			<ul id="clients">
-				<li><a target="_blank" style="color:black" href="http://www.pliogrip.co.in/">WWW.PLIOGRIP.CO.IN</a></li>
-				<li><a target="_blank" style="color:black" href="http://www.decocoat.in/">WWW.DECOCOAT.IN</a></li>
-				<li><a target="_blank" style="color:black" href="http://www.ecotechpolymers.net/">WWW.ECOTECHPOLYMERS.NET</a></li>
-				<li><a target="_blank" style="color:black" href="http://www.vedantcommodities.com/">WWW.VEDANTCOMMODITIES.COM</a></li>
-			</ul>
-
-			<br><br>
+      <!-- nav bar end-->
 
 
-		</div>
+      <!-- <div class="container-sm">100% wide until small breakpoint</div> -->
+<!-- <div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div> -->
+<!-- <div class="container-fluid-xxl">
+    
+   <div class="row col-12 col-md-12 col-lg-12 col-xl-12"> -->
 
-	
+    <div id="carouselExampleCaptions" class="carousel slide col-12 col-md-12 col-lg-12 col-xl-12" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- <img src="https://source.unsplash.com/1600x500/?gym,equipment" class="d-block w-100" alt="..."> -->
+                <!--<video autoplay muted loop id="myVideo" class="col-12 col-md-12 col-lg-12 col-xl-12">
+    <source src="video.mp4" type="video/mp4" class="w-100 d-block">
+      </video> -->
+                <video autoplay muted loop class="col-12 col-md-12 col-lg-12 col-xl-12">
+                    <source src="video.mp4" type="video/mp4" />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Web Development</h1>
+                    <p>
+                        I develop custom made websites, tailer made as per requirement.
+                        <a href="http://www.adsgenerate.com"><button target="_blank" type="button" class="btn btn-success m-2">Know more</button></a>
+                    </p>
+                </div>
+            </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1600x500/?web,hosting" class="col-12 col-md-12 col-lg-12 col-xl-12" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Custom Web Hosting</h1>
+              <p>Customers get custom made web hosting services.
+                <a href="http://www.adsgenerate.com"><button target="_blank" type="button" class="btn btn-success m-2">Know more</button></a>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1600x500/?social,media,marketing" class="col-12 col-md-12 col-lg-12 col-xl-12" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Social Media & Web Marketing</h1>
+              <p>Make your business a brand. I will market your business so that your customers will speak for you. 
+                <a href="http://www.adsgenerate.com"><button target="_blank" type="button" class="btn btn-success m-2">Know more</button></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-	</div>
+
+
+
+   <!-- </div>
+
+
+
+
+</div> -->
+
+
+<div class="container-fluid bg-success bg-gradient" >
+
+<div class="row">
+
+  <a href="#about"><h1 class="text-center text-light mx-auto pb-5 pt-5">About Me</h1></a>
+
+  
+    
+
+  
+
+  <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+
+    <img src="https://img1.wsimg.com/isteam/ip/ec06d0b0-0de8-4e80-b66a-25c0f386842e/shaileshHDedited.jpg" class="img-fluid w-100 pb-5" alt="...">
+    
+
+  </div>
+
+  <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+
+  <p class="user-select-none text-light text-wrap fs-4 bg-transparent pt-5 rounded">
+
+   Hi, my name is Shailesh Manjunath Bhat. A graduate in Bachelor of Science in Information Technology from Mumbai University. Living in Dombivili, Maharashtra, India, Earth, Rodinia. I have learnt HTML5, CSS3, Javascript, JQuery, PHP & MySQL from Seed Infotech, Thane. Before 2019, from June 2011 to Oct 2019 i was working in E-Commerce Industry. Starting from June 2011 i worked for Naaptol Online Shopping Pvt td, Just buy Live Pvt Ltd, Maayra Retail Pvt Ltd & Lumina Datamatics pvt Ltd.
+
+   <br>
+   <button class="btn btn-info" href="https://my.indeed.com/p/shaileshb-fihmprn?">Download My Resume</button>
+   <h4 class="text-white">Skills:</h4>
+
+
+
+   <h4>HTML5
+    <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width:90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+</div>
+   </h4>
+   <h4>CSS3
+    <div class="progress">
+  <div class="progress-bar bg-info" role="progressbar" aria-label="Basic example" style="width:80%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="80">80%</div>
+</div>
+   </h4>
+   <h4>JQUERY
+   <div class="progress">
+  <div class="progress-bar bg-danger" role="progressbar" aria-label="Basic example" style="width:40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+</div></h4>
+   <h4>Javascript
+<div class="progress">
+  <div class="progress-bar bg-dark" role="progressbar" aria-label="Basic example" style="width:40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+</div>
+   </h4>
+   <h4>PHP
+<div class="progress">
+  <div class="progress-bar bg-info" role="progressbar" aria-label="Basic example" style="width:40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+</div>
+   </h4>
+   <h4>MySQL
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width:30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+</div>
+   </h4>
+</p>
+</div>
+
+
+
+</div>
+  
+</div>
+
+
+<div class="container-fluid bg-warning text-white">
+
+<div class="row p-5">
+
+  <p>
+    <h1>Clients</h1>
+
+    <ul>
+<li><a target="_blank" class="text-dark fs-4" href="http://WWW.PLIOGRIP.CO.IN">WWW.PLIOGRIP.CO.IN</a></li>
+<li><a target="_blank" class="text-dark fs-4" href="http://WWW.DECOCOAT.IN">WWW.DECOCOAT.IN</a></li>
+<li><a target="_blank" class="text-dark fs-4" href="http://WWW.ECOTECHPOLYMERS.NET">WWW.ECOTECHPOLYMERS.NET</a></li>
+<li><a target="_blank" class="text-dark fs-4" href="http://WWW.VEDANTCOMMODITIES.COM">WWW.VEDANTCOMMODITIES.COM</a></li>
+</ul>
+
+  </p>
+  
+
+</div> 
+
+</div>
+    
+
+  
 
 </body>
 </html>
