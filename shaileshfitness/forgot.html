@@ -4,37 +4,67 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>forgot reset password</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://bootswatch.com/5/pulse/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<script type="text/javascript" src="login.js"></script>
 </head>
-<body>
+<body class="bg-success">
 <center>
-	<h1>Reset password</h1>
+	<div class="container">
+		<div class="row">
 
-	<form method="post" action="resetpassword.html">
+			<div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+				<h1>Reset password</h1>
+
+	<form class="bg-warning text-white">
 		<table>
 			<table>
 				<tr>
 					<td>
-						Enter username or email <input type="text" name="" />
+						<div class="form-group">Enter username or email <input class="form-control rounded-pill" type="text" name="txtUsername" id="txtUsername" /></div>
 					</td>
 
 				</tr>
 
 				<tr>
 					<td>
-						Security question answer <input type="text" name="" />
+						<div class="form-group">
+						Security question answer <input class="form-control rounded-pill mt-3 mb-3" type="text" name="txtPassword" id="txtPassword" /></div>
 					</td>
 				</tr>
 
 				<tr>
-					<td>
-						<input type="submit" name="" value="Reset Password">
+					<td><div class="form-group">
+						<input type="button" class="btn btn-primary" name="reset" value="Reset Password" onclick="chkResetPassword()"></div>
 					</td>
+					<td>
+						
+						<input type="button" class="btn btn-info" name="" value="Login Page" onclick="window.location.href='login.html'">
+					</td>
+				</tr>
+
+				<tr>
+					<td><input type="button" class="btn btn-dark" name="" value="Registration Page" onclick="window.location.href='index.html'"></td>
+					<td><input type="button" class="btn btn-dark" name="" value="Members Page" onclick="window.location.href='landing.html'"></td>
 				</tr>
 
 			</table>
 
-		</table>
+		
 	</form>
+				
+			</div>
+			
+		</div>
+		
+
+	</div>
+	
 </center>
 </body>
 </html>

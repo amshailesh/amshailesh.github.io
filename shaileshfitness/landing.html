@@ -4,19 +4,38 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>landing</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	
+<link href="https://bootswatch.com/5/pulse/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<script type="text/javascript" src="login.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body bgcolor="wheat">
+<body bgcolor="wheat" onload="checkCookie()">
 	<center>
-		<h1> Welcome to landing page
+		<h1 class="text-capitalize text-danger"> <span id="greet">Welcome to landing page</span>
 
 		<table>
 			
 			<tr>
 				<td><a href="login.html">Login page</a> |</td>
-				<td><a href="index.html">Home Page</a></td>
+
+			</tr>
+			<tr>
+				<td><a href="index.html">Registration Page</a>  |</td>
+			</tr>
+			<tr>
+				<td><a href="logout.html">Logout</a>  |</td>
+			</tr>
+			<tr>
+				<td><a href="forgot.html">Reset Password</a></td>
 			</tr>
 
 		</table>
+<br><br>
+		<input type="button" class="btn yt text-white" value="Subscribe My YouTube" onclick="window.location.href='https://www.youtube.com/channel/UCKStBmmVuflHTeTdyDUwqFw?sub_confirmation=1'">
 
 	</h1> 
 	</center>
