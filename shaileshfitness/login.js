@@ -20,7 +20,7 @@ var vUsername;
 
 function chkResetPassword(){
 
-	if(document.getElementById("txtUsername").value.toLowerCase()=="ifuture" && document.getElementById("txtPassword").valuetoLowerCase()=="ifuture"){
+	if(document.getElementById("txtUsername").value=="ifuture" && document.getElementById("txtPassword")=="ifuture" || document.getElementById("txtUsername").value=="IFUTURE" && document.getElementById("txtPassword")=="IFUTURE"){
 		swal("Great","Credentials Reset Successfully","success");
 		//window.location.href="landing.html";
 	}
