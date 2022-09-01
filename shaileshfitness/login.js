@@ -2,7 +2,7 @@
 
 function chkPassword(){
 var vUsername;
-	if(vUsername != "" && document.getElementById("txtUsername").value!=null && document.getElementById("txtPassword").value!=null && document.getElementById("txtUsername").value==document.getElementById("txtUsername").value && document.getElementById("txtPassword").value=="ifuture" || document.getElementById("txtPassword").value=="IFUTURE"){
+	if(vUsername != "" && document.getElementById("txtUsername").value!=null && document.getElementById("txtPassword").value!=null && document.getElementById("txtUsername").value==document.getElementById("txtUsername").value && document.getElementById("txtPassword").value=="ifuture" || document.getElementById("txtUsername").value==document.getElementById("txtUsername").value && document.getElementById("txtPassword").value=="IFUTURE"){
 		vUsername=document.getElementById("txtUsername").value;
 
 		//alert("before cookie set");
