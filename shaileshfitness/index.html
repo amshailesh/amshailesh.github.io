@@ -17,81 +17,100 @@
 <body class="bg-primary">
 
 	<center>
-
-		<h1><span style="color:orange;">SHAILESH</span> <span style="color:orange;">BHAT</span> <span style="color:white;">FITNESS</span></h1>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+					<h1><span style="color:orange;">SHAILESH</span> <span style="color:orange;">BHAT</span> <span style="color:white;">FITNESS</span></h1>
 <form action="formsubmit.html" class="bg-success text-white">
 		<h1>Registration Form</h1>
 		
 		<table>
 			<tr class="m-5">
-				<td>First Name</td>
-				<td ><input class="form-control rounded-pill" type="text" name="txtfname" class="m-5" required></td>
+				
+				<td ><div class="form-group"><label for="">First Name</label><input class="form-control rounded-pill" type="text" name="txtfname" class="m-5" required></div></td>
 			</tr>
 
 			<tr class="m-5">
-				<td>Last Name</td>
-				<td><input class="form-control rounded-pill" type="text" name="txtlname" required></td>
+				
+				<td><div class="form-group"><label for="">Last Name</label><input class="form-control rounded-pill" type="text" name="txtlname" required></div></td>
 			</tr>
 
 			<tr class="m-5">
-				<td>Username</td>
+				
 
-				<td><input class="form-control rounded-pill" type="text" name="txtusername" required></td>
+				<td><div class="form-group"><label for="">Username</label><input class="form-control rounded-pill" type="text" name="txtusername" required></div></td>
 			</tr>
 
 			<tr class="m-5">
-				<td>Password</td>
+				
 
-				<td><input class="form-control rounded-pill" type="password" name="txtpassword" required></td>
+				<td><div class="form-group"><label for="">Password</label><input class="form-control rounded-pill" type="password" name="txtpassword" required></div></td>
 			</tr>
 
 			<tr class="m-5">
-				<td>DOB</td>
+				
 
-				<td><input class="form-control rounded-pill" type="date" name="txtdate" required></td>
+				<td><div class="form-group"><label for="">DOB</label><input class="form-control rounded-pill" type="date" name="txtdate" required></div></td>
 			</tr>
 
 
 			<tr class="m-5">
-				<td>Attach Resume</td>
+				
 
-				<td><input class="form-control rounded-pill" type="file" name="txtfile" required></td>
-			</tr>
-
-			<tr class="m-5">
-				<td><input type="radio" name="gender" value="male" selected />Male   <input type="radio" name="gender" value="female" />FeMale</td>
-				<td><input type="checkbox" name="hobby" />Cricket </br> <input type="checkbox" name="hobby" />Tennis</td>
+				<td><div class="form-group"><label for="">Attach File</label><input class="form-control rounded-pill" type="file" name="txtfile" required></div></td>
 			</tr>
 
 			<tr class="m-5">
-				<td>Color <input type="color" name=""></td>
-				<td>Telephone <input class="form-control rounded-pill" type="tel" name=""></td>
-				<td></td>
-			</tr>
-			<tr class="m-5">
-				<td>Select <select required><option>default city</option><optgroup label="Maharashtra"><option>mumbai</option><option>nashik</option></optgroup></select></td>
-				<td></td>
-			</tr>
-			<tr class="m-5">
-				<td>Email</td>
-				<td><input class="form-control rounded-pill" type="email" name="" required></td>
+				<td><div class="form-group"><label for="">Gender</label><input type="radio" name="gender" value="male" selected />Male   <input type="radio" name="gender" value="female" />FeMale
+				<label for="">Hobby</label><input type="checkbox" name="hobby" />Cricket </br> <input type="checkbox" name="hobby" />Tennis</div></td>
 			</tr>
 
 			<tr class="m-5">
-				<td>Website<input class="form-control rounded-pill" type="url" name="" required></td>
-				<td><input class="form-control rounded-pill" type="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" name=""></td>
+				<td><div class="form-group"><label for="">Color</label><input type="color" name="">
+			</td>
+			</tr>
+			<tr class="m-5">
+				<td><div class="form-group"><label for="">Telephone</label><input class="form-control rounded-pill" type="tel" name=""></div></td>
+			</tr>
+			<tr class="m-5">
+				<td><div class="form-group"><label for="">City</label><select required><option>default city</option><optgroup label="Maharashtra"><option>mumbai</option><option>nashik</option></optgroup></select></div></td>
+			</tr>
+			<tr class="m-5">
+				
+				<td><div class="form-group"><label for="">Email</label><input class="form-control rounded-pill" type="email" name="" required></div></td>
+			</tr>
+
+			<tr class="m-5">
+				<td><div class="form-group"><label for="">Website</label><input class="form-control rounded-pill" type="url" name="" required></div></td>
+				
 				
 			</tr>
+			<tr class="m-5">
+				<td><div class="form-group"><label for="">Brand Image</label><input class="form-control rounded-pill" type="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" name=""></div></td>
+			</tr>
 
 			<tr class="m-5">
 
-				<td><input class="form-control btn btn-dark rounded-pill" type="submit" name="btnsubmit"></td>
-				<td><input class="form-control rounded-pill" type="reset" name="btnreset"></td>
+				<td><div class="form-group"><input class="form-control btn btn-dark rounded-pill" type="submit" name="btnsubmit"></div></td>
+
+			</tr>
+			<tr class="m-5">
+				<td><div class="form-group"><input class="form-control rounded-pill" type="reset" name="btnreset"></div></td>
 			</tr>
 
 			<tr class="m-5">
 				<td><input type="button" class="btn btn-warning" name="" value="Forgot/Reset Password" onclick="window.location.href='forgot.html'"></td>
-				<td><input type="button" class="btn btn-info" name="" value="Login Page" onclick="window.location.href='login.html'"> &nbsp; <input type="button" class="btn btn-dark" name="" value="Members Page" onclick="window.location.href='landing.html'"></td>
+
+				<tr class="m-5">
+				<td><input type="button" class="btn btn-info" name="" value="Login Page" onclick="window.location.href='login.html'">
+
+
+				</td>
+			</tr>
+			<tr class="m-5">
+
+				<td>
+					<input type="button" class="btn btn-dark" name="" value="Members Page" onclick="window.location.href='landing.html'"></td>
 
 			</tr>
 
@@ -101,6 +120,12 @@
 		</table>
 		<br><br><br>	
 </form>
+				</div>
+			</div>
+
+		</div>
+
+		
 	</center>
 	</body>
 

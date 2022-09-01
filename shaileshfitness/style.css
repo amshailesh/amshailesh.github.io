@@ -249,6 +249,10 @@ width: 70%;
 
 }
 
+.yt{
+  background: red;
+}
+
   @media only screen and (max-width: 600px) {
 
     #divmainBody,#divmenuFrame,#divmenuLinks{
@@ -308,6 +312,9 @@ width: 100%;
     padding: 0;
 
   }
+
+
+
 }
 
 
