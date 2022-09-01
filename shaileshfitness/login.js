@@ -21,8 +21,8 @@ var vUsername;
 function chkResetPassword(){
 
 	if(document.getElementById("txtUsername").value=="ifuture" && document.getElementById("txtPassword").value=="ifuture"){
-		//swal("Great","Correct Credentials","success");
-		window.location.href="landing.html";
+		swal("Great","Credentials Reset Successfully","success");
+		//window.location.href="landing.html";
 	}
 	else{
 		swal("You Entered Wrong Credentials","Please enter username & secret question answer as ifuture only","error");
