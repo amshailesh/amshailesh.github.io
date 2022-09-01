@@ -2,7 +2,7 @@
 
 function chkPassword(){
 var vUsername;
-	if(vUsername != "" && document.getElementById("txtUsername").value!=null && document.getElementById("txtPassword").value!=null && document.getElementById("txtUsername").value==document.getElementById("txtUsername").value && document.getElementById("txtPassword").value=="ifuture"){
+	if(vUsername != "" && document.getElementById("txtUsername").value!=null && document.getElementById("txtPassword").value!=null && document.getElementById("txtUsername").value.toLowerCase()==document.getElementById("txtUsername").value && document.getElementById("txtPassword").value.toLowerCase()=="ifuture"){
 		vUsername=document.getElementById("txtUsername").value;
 
 		//alert("before cookie set");
@@ -20,7 +20,7 @@ var vUsername;
 
 function chkResetPassword(){
 
-	if(document.getElementById("txtUsername").value=="ifuture" && document.getElementById("txtPassword").value=="ifuture"){
+	if(document.getElementById("txtUsername").value.toLowerCase()=="ifuture" && document.getElementById("txtPassword").valuetoLowerCase()=="ifuture"){
 		swal("Great","Credentials Reset Successfully","success");
 		//window.location.href="landing.html";
 	}
