@@ -4,82 +4,102 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
+
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://bootswatch.com/5/pulse/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<script type="text/javascript" src="login.js"></script>
 </head>
-<body>
+<body class="bg-primary">
 
 	<center>
 
-		<h1><span style="color:orange;">SHAILESH</span> <span style="color:blue;">BHAT</span> <span style="color:green;">FITNESS</span></h1>
-<form action="landing.html">
+		<h1><span style="color:orange;">SHAILESH</span> <span style="color:orange;">BHAT</span> <span style="color:white;">FITNESS</span></h1>
+<form action="formsubmit.html" class="bg-success text-white">
 		<h1>Registration Form</h1>
 		
 		<table>
-			<tr>
+			<tr class="m-5">
 				<td>First Name</td>
-				<td><input type="text" name="txtfname"></td>
+				<td ><input class="form-control rounded-pill" type="text" name="txtfname" class="m-5" required></td>
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 				<td>Last Name</td>
-				<td><input type="text" name="txtlname"></td>
+				<td><input class="form-control rounded-pill" type="text" name="txtlname" required></td>
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 				<td>Username</td>
 
-				<td><input type="text" name="txtusername"></td>
+				<td><input class="form-control rounded-pill" type="text" name="txtusername" required></td>
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 				<td>Password</td>
 
-				<td><input type="password" name="txtpassword"></td>
+				<td><input class="form-control rounded-pill" type="password" name="txtpassword" required></td>
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 				<td>DOB</td>
 
-				<td><input type="date" name="txtdate"></td>
+				<td><input class="form-control rounded-pill" type="date" name="txtdate" required></td>
 			</tr>
 
 
-			<tr>
+			<tr class="m-5">
 				<td>Attach Resume</td>
 
-				<td><input type="file" name="txtfile"></td>
+				<td><input class="form-control rounded-pill" type="file" name="txtfile" required></td>
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 				<td><input type="radio" name="gender" value="male" selected />Male   <input type="radio" name="gender" value="female" />FeMale</td>
 				<td><input type="checkbox" name="hobby" />Cricket </br> <input type="checkbox" name="hobby" />Tennis</td>
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 				<td>Color <input type="color" name=""></td>
-				<td>Telephone <input type="tel" name=""></td>
-				<td>Select <select><option>default city</option><optgroup label="Maharashtra"><option>mumbai</option><option>nashik</option></optgroup></select></td>
+				<td>Telephone <input class="form-control rounded-pill" type="tel" name=""></td>
+				<td></td>
+			</tr>
+			<tr class="m-5">
+				<td>Select <select required><option>default city</option><optgroup label="Maharashtra"><option>mumbai</option><option>nashik</option></optgroup></select></td>
+				<td></td>
+			</tr>
+			<tr class="m-5">
+				<td>Email</td>
+				<td><input class="form-control rounded-pill" type="email" name="" required></td>
 			</tr>
 
-			<tr>
-				<td>Email <input type="email" name="" required></td>
-				<td>Website <input type="url" name=""> </br> <input type="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" name=""></td>
+			<tr class="m-5">
+				<td>Website<input class="form-control rounded-pill" type="url" name="" required></td>
+				<td><input class="form-control rounded-pill" type="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" name=""></td>
+				
 			</tr>
 
-			<tr>
+			<tr class="m-5">
 
-				<td><input type="submit" name="btnsubmit" style="background: orange;"></td>
-				<td><input type="reset" name="btnreset"></td>
+				<td><input class="form-control btn btn-dark rounded-pill" type="submit" name="btnsubmit"></td>
+				<td><input class="form-control rounded-pill" type="reset" name="btnreset"></td>
 			</tr>
 
-			<tr>
-				<td><a href="forgot.html">Forgot Password</a></td>
-				<td><a href="login.html">Login here</a></td>
+			<tr class="m-5">
+				<td><input type="button" class="btn btn-warning" name="" value="Forgot/Reset Password" onclick="window.location.href='forgot.html'"></td>
+				<td><input type="button" class="btn btn-info" name="" value="Login Page" onclick="window.location.href='login.html'"> &nbsp; <input type="button" class="btn btn-dark" name="" value="Members Page" onclick="window.location.href='landing.html'"></td>
+
 			</tr>
 
 			
 
 			
-		</table>	
+		</table>
+		<br><br><br>	
 </form>
 	</center>
 	</body>
