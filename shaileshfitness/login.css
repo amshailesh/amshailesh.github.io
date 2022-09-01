@@ -1,0 +1,113 @@
+
+
+
+
+
+*{
+
+  padding: 0;
+  margin: 0;
+  font-family:googlesans;
+  box-sizing: border-box;
+}
+
+body{
+
+padding: 0;
+  margin: 0;
+  font-family: verdana;
+
+}
+
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+@font-face {
+  font-family: googlesans;
+  src: url(GoogleSans-Regular.ttf);
+}
+
+
+.navbar-brand h1{
+  font-family: 'Aboreto', cursive;
+  font-size: 5vh;
+  color: greenyellow;
+}
+
+.navbar-brand h1:hover{
+  
+  color: aqua;
+}
+
+.nav-item a:hover{
+
+  font-size: 7vh;
+  color: orange;
+}
+
+
+
+.carousel-caption{
+
+  color:white;
+  background:rgba(0, 0,255, 0.6);
+  margin: 0;
+  padding:0;
+  border-radius: 75px 75px 75px 75px;
+
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  
+}
+
+.btn{
+
+  border-radius: 75px 75px 75px 75px;
+}
+
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+a{
+      color: white;
+    }
+  
+
+
+
+
+    .navbar {
+  animation: pulse 5s infinite;
+}
+
+
+
+@keyframes pulse {
+	0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
