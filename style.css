@@ -37,6 +37,8 @@ html {
 }
 
 
+
+
 .navbar-brand h1{
   font-family: 'Aboreto', cursive;
   font-size: 5vh;
@@ -50,9 +52,22 @@ html {
 
 .nav-item a:hover{
 
-  font-size: 7vh;
-  color: orange;
+  font-size: 25px;
+  color:black;
+   background-image: -o-linear-gradient(330deg,#fc0 0,#fc0 100%);
+    background-image: linear-gradient(120deg,#fc0,#fc0);
+    background-position:0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 2px solid #fc0;
+    
+    text-decoration: none;
+    -webkit-transition: background-size .125s ease-in;
+    -o-transition: background-size .125s ease-in;
+    transition: background-size 2s ease-out;
 }
+
+
 
 
 
