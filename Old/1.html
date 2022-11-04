@@ -1,0 +1,347 @@
+<html>
+<head>
+<title>Shailesh Bhat Portfolio</title>
+    <meta name="viewport" content="width=device-width">
+    
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+        #main{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+        *{
+            box-sizing: border-box;
+            font-family: verdana;
+        }
+         @font-face{
+                src:url('fonts/Cinzel/Cinzel-Regular.ttf');
+                font-family:starwarsfontregular;
+            }
+        @font-face{
+                src:url('fonts/Cinzel/Cinzel-Bold.ttf');
+                font-family:starwarsfontbold;
+            }
+        @font-face{
+                src:url('fonts/Nanum_Gothic/NanumGothic-Regular.ttf');
+                font-family:cleanfontregular;
+            }
+        #content{
+            width:100%;
+            float:left;
+            font-family:starwarsfontregular;
+        }
+        #home_content,#about_content,#profile_content,#contact_content{
+            font-family:starwarsfontregular;
+        }
+        
+         .containers{
+            float:left;
+            width:100%;
+            font-family:starwarsfontregular;
+            display: none;
+        }
+        #main,#myphoto,#rightbox,#menu,#intropara{
+            float:left;
+        }
+        #myphoto{
+            width:50%;
+            height:100%;
+            background: lightgrey;
+        }
+        #myphoto img{
+            width:100%;
+            height:100%;
+        }
+         #rightbox{
+            width:50%;
+            height:100%;
+            background: white;
+        }
+        
+        #myname{
+            font-family: starwarsfontregular;
+            font-size:50px;
+            margin: 5% 0 0 0;
+            text-align: center;
+        }
+        #mainreadmore{
+            font-family: starwarsfontbold;
+            margin:0 0 0 35%;
+            width:30%;
+            height:10%;
+            color:white;
+            background:black;
+            font-size:120%;
+        }
+        #myintro{
+            font-family:cleanfontregular;
+            color:grey;
+            padding:0 12% 5% 12%;
+            text-align: justify;
+        }
+        #logo{
+            margin: 2% 0 0 1%;
+            width:83px;
+            height:77px;
+        }
+        #menu ul li{
+            list-style: none;
+            font-family:cleanfontregular;
+            width:20%;
+            float:left;
+            height:8%;
+        }
+        #menu ul{
+            margin:0;
+            padding:0;
+            display:inline;
+            float:left;
+            width:100%;
+            background: orangered;
+        }
+        #menu ul li a{
+            text-decoration: none;
+            float:left;
+            width:100%;
+            
+            text-align: center;
+            color:white;
+            
+            padding:5px 0;
+        }
+        #menu ul li a:hover{
+            background: green;
+            width:100%;
+            height:53px;
+           
+        }
+        #menu{
+            width:100%;
+        }
+        .address{
+            padding:0 5% 0 5%;
+            text-align:justify;
+            
+        }
+        #about_content{
+            overflow-y: scroll;
+            height:500px;
+            width:100%;
+        }
+        
+        
+        ::-webkit-scrollbar{
+            width:10px;
+        }
+        ::-webkit-scrollbar-track{
+            background:green;
+            border-radius:20px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background:brown;
+            border-radius: 20px;
+         
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            background:yellow;
+            
+        }
+        
+        
+        
+        @media only all and (max-width:500px) 
+        {
+            
+            #myphoto{
+                display:grid;
+                width:100%;
+                grid-template-columns:auto 1fr;
+               
+            }
+            #rightbox{
+                display:grid;
+                width:100%;
+                grid-template-columns:1fr 1fr;
+               
+            }
+            #menu{
+                width:100%;
+            }
+            #menu ul li{
+                
+               width:100%;
+            
+                
+                
+            }
+            #menu ul li a{
+                
+                width:100%;
+                font-size:40px;
+               
+            }
+            #menu ul{
+                margin: 0;
+                padding:0;
+                float:left;
+                width:100%;
+            }
+            #mainreadmore{
+                width:40%;
+                margin:0 0 0 30%;
+            }
+            .containers{
+                width:100%;
+            }
+            #home img{
+                display: none;
+            }
+            #menu{
+                display:grid;
+                grid-template-columns: 1fr;
+                grid-gap: 5px;
+            }
+            #content{
+                float:right;
+            }
+            #rightbox{
+                display:grid;
+                grid-template-columns: 1fr;
+            }
+        }
+        
+    </style>
+    <script src="jquery.js"></script>
+   <script>
+ $(document).ready(function()
+    {
+     $("#home_content").show();
+     $("#menu ul li").click(function(){
+         $(".containers").hide();
+         var id=this.id;
+         
+         var source=$(this).attr("src");
+            $("#mainimage img").attr("src",source);
+            
+         $("#"+id+"_content").show();
+         
+         
+     })
+     
+     
+     
+ });
+    </script>
+</head>
+    <body>
+    <div id="main">
+        
+    <div id="myphoto"><img src="img/myphoto.jpg" /></div>
+    <div id="rightbox">
+        <div id="menu">
+            
+            <ul>
+                <li id="home"><a><img src="img/logo.png" id="logo" /></a></li>
+                <li id="home"><a>Home</a></li>
+                <li id="about"><a>About Me</a></li>
+                <li id="profile"><a>Portfolio</a></li>
+                <li id="contact"><a>Contact me</a></li>
+            </ul>
+        </div>
+        <div id="content">
+    <div id="home_content" class="containers">
+    
+        <div id="intropara">
+        <p id="myname">SHAILESH BHAT</p><p id="myintro">I am BSc IT Graduate, Mumbai University. Worked in Naaptol.com, Justbuylive.com, Maayra Retail, Lumina Datamatics in E-Commerce Sector since 2011. Full Stack developer since 2019. </p><input type="button" value="Read More" id="mainreadmore" />
+        </div>
+    </div>
+    <div id="about_content" class="containers">
+        <br>
+    <h1 style="font-family:starwarsfontregular;">About</h1>
+        <P class="para">
+        <p class="address">I became Full-Stack web developer in 2019!
+
+Previously i used to work for Naaptol.com, JustBuyLive.com, Maayra Retail & Lumina Datamatics. I worked from June 2011 to Oct 2018 in those companies.Then i thought lets try Online business & became Amazon Seller for around a year in 2019. Business didn't go well as planned. Finally i felt that, i must persue my original career; that is web development. So i too a Full-Stack web developer course in Seed Infotech, which i had heard of when i was in college. After passing out from Seed, i am looking to get my new career started. I like webdesiging & development.</p>
+        
+        <p class="address">Full-Stack Developer Course,Seed Infotech
+Nov 2019 - April 2020
+
+I completed Full-Stack Developer Course from Seed Infotech.
+
+Amazon Seller,Monthlyfair
+Dec 2018 - Nov 2019
+
+I was a Amazon Seller & worked from my home. I enjoyed doing business.
+
+Group Leader, Lumina Datamatics
+Jan 2018 - Oct 2018
+
+I was group leader for Lumina Datamatics in Amazon US process.
+
+Upload Incharge, Maarya Retail
+Jan 2016 - Dec 2017
+
+Upload Incharge in Maarya Retail Pvt Ltd.
+
+Listing Executive, JustBuyLive.com
+sep 2015 - Sep 2016
+
+Upload listings in JustBuyLive.com
+
+Ecommerce Executive, Naaptol.com
+June 2011 - Aug 2014
+
+Upload Incharge of Home Kitchen & Applinaces listings in Naaptol.com
+
+Persuing, MSc IT
+Jan 2009 - June 2011
+
+I was persuing MSc IT but i failed.
+
+Education
+BSc IT, Mumbai University
+2006 - 2009
+
+I graduated from Mumbai University in Bachelor of Information technonogy.</p>
+        <p class="address">The Old Minstrel<br>
+        The old Minstrel alone at the water covered land;<br>
+        was once a heartless butcher, alone at the sinful land;<br><br>
+        Work was full, plenty was the money;<br>
+        but could not get the knight's sleep;<br><br>
+        For it was him, not he who was the judge;<br>
+        Many years after the man's death;<br>
+        was his presence felt by the prisoner's gang;<br><br>
+        Crime reduced, miser's died;<br>
+        giving no sign of willful dine.<br>
+            
+        </p>
+        </P>
+    </div>
+    <div id="profile_content" class="containers" ><br>
+    <h1 style="font-family:starwarsfontregular;">Profile</h1>
+        <ul type="circle">
+            <li><a href="http://www.ecotechpolymers.net">www.ecotechpolymers.net</a></li>
+        <li><a href="http://www.vedantcommodities.com">www.vedantcommodities.com</a></li>
+        <li><a href="http://www.wallkeepers.in">www.wallkeepers.in</a></li>
+        </ul>
+    </div>
+    <div id="contact_content" class="containers"><br>
+    <h1 style="font-family:starwarsfontregular;">Contact</h1>
+        <p class="address">Address:A7402, Adwait Chs, Star Colony, Manpada road, Dombivili East, Thane, Maharashtra, India, Pincode:421204.</p>
+        <p class="address">Mobile: +91-9920070452, E-mail: amshaileshpayments@gmail.com</p>
+    </div>
+    </div>
+        
+        </div>
+        
+        
+    </div>
+    </body>
+</html>

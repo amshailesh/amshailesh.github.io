@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Grid System</title>
+    <style>
+        .divsize{
+            width:100%;
+            height:300px;
+            
+        }
+        #main{
+            display:grid;
+            grid-gap:5px;
+            grid-template-columns:1fr 1fr 2fr;
+        }
+        #a{
+            background:red;
+        }
+        #b{
+            background:green;
+        }
+        #c{
+            background:blue;
+        }
+        #c{
+            background:violet;
+        }
+        #d{
+            background:indigo;
+        }
+        #e{
+            background:yellow;
+        }
+        #f{
+            background:orange;
+        }
+    </style>
+</head>
+    <body>
+    <div id="main">
+        <div id="a" class="divsize"></div>
+        <div id="b" class="divsize"></div>
+        <div id="c" class="divsize"></div>
+        <div id="d" class="divsize" ></div>
+        <div id="e" class="divsize"></div>
+        <div id="f" class="divsize"></div>
+    </div>
+    </body>
+</html>
