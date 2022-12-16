@@ -1,13 +1,16 @@
 
 
 
-
+@font-face {
+  font-family: googlefont;
+  src: url(fonts/NotoSans-Light.ttf);
+}
 
 *{
 
   padding: 0;
   margin: 0;
-  font-family:googlesans;
+  font-family:googlefont;
   box-sizing: border-box;
 }
 
@@ -15,7 +18,7 @@ body{
 
 padding: 0;
   margin: 0;
-  font-family: verdana;
+  font-family: googlefont;
 
 }
 
@@ -31,10 +34,13 @@ html {
     box-sizing: inherit;
     }
 
-@font-face {
+/*@font-face {
   font-family: googlesans;
   src: url(GoogleSans-Regular.ttf);
-}
+
+}*/
+
+  
 
 
 
