@@ -35,6 +35,8 @@
 		
 			grid-template-rows:0.5fr 0.5fr ;
 
+			grid-auto-flow: row;
+
 			
 
 		}
@@ -139,8 +141,13 @@ ul li{
 
 	</div>
 	
-	<div id="a">
-		<h1>Shailesh Bhat, Web Designer & Developer</h1>
+	<div id="a" onselectstart="return false"
+ oncut="return false"
+ oncopy="return false"
+ onpaste="return false"
+ ondrag="return false"
+ ondrop="return false">
+		<h1 >Shailesh Bhat, Web Designer & Developer</h1>
 		Previously i used to work for Naaptol.com, JustBuyLive.com, Maayra Retail & Lumina Datamatics. I worked from June 2011 to Oct 2018 in those companies.Then i thought lets try Online business & became Amazon Seller for around a year in 2019. Business didn't go well as planned. Finally i felt that, i must persue my original career; that is web development. So i took a web developer course in Seed Infotech & currently, I am learning Software Testing Course from Ifuture Technologies.
 		<br><br>
 		<h1>Skills:</h1>
@@ -166,10 +173,10 @@ ul li{
 
 	<div id="c">
 		<h1>Clients</h1>
-		<h5><a href="https://www.pliogrip.co.in">www.pliogrip.co.in</a> | Resins & Chemicals Company</h5>
-		<h5><a href="https://www.decocoatestore.co.in">www.decocoatestore.co.in</a> | Coating Resins Company</h5>
-		<h5><a href="https://www.ecotechpolymers.net">www.ecotechpolymers.net</a> | Eco Friendly Inks Company</h5>
-		<h5><a href="https://www.vedantcommodities.com">www.vedantcommodities.com</a> | Engineering Exports Company</h5>
+		<h5><a target="_blank" href="https://www.pliogrip.co.in">www.pliogrip.co.in</a> | Resins & Chemicals Company</h5>
+		<h5><a target="_blank" href="https://www.decocoatestore.co.in">www.decocoatestore.co.in</a> | Coating Resins Company</h5>
+		<h5><a target="_blank" href="https://www.ecotechpolymers.net">www.ecotechpolymers.net</a> | Eco Friendly Inks Company</h5>
+		<h5><a target="_blank" href="https://www.vedantcommodities.com">www.vedantcommodities.com</a> | Engineering Exports Company</h5>
 <br>
 		<p>
           <a href="https://www.linkedin.com/in/amshailesh/" target="_blank" class="mr-2 mb-2 text-white h4">Linkedin</a>
@@ -189,5 +196,12 @@ ul li{
 
 
 </div>
+<script type="text/javascript">
+	window.addEventListener('contextmenu', (event) => {
+  event.preventDefault()
+  alert("Right Click Not allowed");
+})
+
+</script>
 </body>
 </html>
